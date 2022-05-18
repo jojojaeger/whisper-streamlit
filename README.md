@@ -8,7 +8,7 @@ VOSK INSTALLATION
 3) pip install python-docx
 4) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
 5) 	install PySimpleGUI
-6)	install truecase: https://pypi.org/project/truecase/
+6)	install truecase: https://github.com/allenai/allennlp/ | https://github.com/mayhewsw/pytorch-truecaser
 ___________________________________________________________________________
 
 7)	Download model 
