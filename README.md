@@ -5,16 +5,16 @@ VOSK INSTALLATION
 
 1) Update python 
 2) Use mambaforge
-3) pip install python-docx
-4) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
-5) 	install PySimpleGUI
-6)	install truecase: https://github.com/allenai/allennlp/ | https://github.com/mayhewsw/pytorch-truecaser
-___________________________________________________________________________
+3) download model
 
-7)	Download model 
- 
-8) Write python script 
-_________________________________________________________________________________
+DEPENDENCIES
+ 1) Doc: pip install python-docx
+ 2) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
+ 3) UI: install PySimpleGUI
+	4) Truecase: https://github.com/allenai/allennlp/ | https://github.com/mayhewsw/pytorch-truecaser
+
+
+
 CONSOLE: 
 1) Cd Documents\Study\Medizinische Informatik\SS22\KfK Praktikum\Vosk Model
 2) python speechtotext.py Interview_30s.wav
