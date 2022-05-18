@@ -11,7 +11,7 @@ DEPENDENCIES
  1) Doc: pip install python-docx
  2) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
  3) UI: install PySimpleGUI
-	4) Truecase: https://github.com/allenai/allennlp/ | https://github.com/mayhewsw/pytorch-truecaser
+ 4) Truecase: https://github.com/allenai/allennlp/ | https://github.com/mayhewsw/pytorch-truecaser
 
 
 
