@@ -11,8 +11,7 @@ DEPENDENCIES
  1) Doc: pip install python-docx
  2) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
  3) UI: install PySimpleGUI
- 4) Truecase: install nltk and use nltk.download() to get averaged_perceptron_tagger
-
+ 4) Truecase: download german corpus: python -m spacy download de_core_news_sm
 
 CONSOLE: 
 1) Cd Documents\Study\Medizinische Informatik\SS22\KfK Praktikum\Vosk Model
