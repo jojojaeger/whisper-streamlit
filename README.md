@@ -1,5 +1,5 @@
 # Auotmatic Speech Recognition 
-this project is based on the offline speech recognition API VOSK: https://github.com/alphacep/vosk-api. The goal is to automatically transcibe interviews.
+this project is based on the offline speech recognition API VOSK: https://github.com/alphacep/vosk-api. The goal is to automatically transcibe interviews. 
 
 ## VOSK INSTALLATION
 
