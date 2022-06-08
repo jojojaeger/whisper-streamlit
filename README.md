@@ -5,7 +5,7 @@ this project is based on the offline speech recognition API VOSK: https://github
 
 1) Update python 
 2) Use mambaforge
-3) download german vosk model: https://alphacephei.com/vosk/models
+3) download german vosk model and place it in same folder: https://alphacephei.com/vosk/models
 
 ## DEPENDENCIES
  1) Doc: `pip install python-docx`
