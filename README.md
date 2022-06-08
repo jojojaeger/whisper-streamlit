@@ -14,5 +14,5 @@ this project is based on the offline speech recognition API VOSK: https://github
 
 ## RUN 
 * switch to path of your vosk model
-* run: `python speechtotext.py audio.wav` or `python speechtotext.py` when using the GUI. 
+* run: `python speechtotext.py audio.wav` or `python speechtotext_GUI.py` when using the GUI. 
 
