@@ -10,10 +10,10 @@ this project is based on the offline speech recognition API VOSK: https://github
 ## DEPENDENCIES
  1) Doc: `pip install python-docx`
  2) ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
- 3) UI: 'pip install PySimpleGUI'
- 4) Truecase: 'pip install nlp' | download german corpus: 'python -m spacy download de_core_news_sm' (https://spacy.io/models/de)
+ 3) UI: `pip install PySimpleGUI`
+ 4) Truecase: `pip install nlp` | download german corpus: `python -m spacy download de_core_news_sm` (https://spacy.io/models/de)
 
 ## RUN 
 * switch to path of your vosk model
-* run: 'python speechtotext.py audio.wav'
+* run: `python speechtotext.py audio.wav`
 
