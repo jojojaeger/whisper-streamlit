@@ -1,5 +1,5 @@
 # Auotmatic Speech Recognition 
-this project is based on the offline speech recognition API VOSK: https://github.com/alphacep/vosk-api in order to transcibe interviews.
+this project is based on the offline speech recognition API VOSK: https://github.com/alphacep/vosk-api. The goal is to automatically transcibe interviews.
 
 ## VOSK INSTALLATION
 
@@ -9,7 +9,7 @@ this project is based on the offline speech recognition API VOSK: https://github
 ## DEPENDENCIES
 * Doc: `pip install python-docx`
 * ffmpeg: https://de.wikihow.com/FFmpeg-unter-Windows-installieren 
-* Truecase: `pip install nlp` | download german corpus: `python -m spacy download de_core_news_sm` (https://spacy.io/models/de)
+* Truecase: `pip install nlp` & download german corpus: `python -m spacy download de_core_news_sm` (https://spacy.io/models/de)
 * GUI: `pip install PySimpleGUI` (only neceassary if using speechtotext_GUI.py)
 
 ## RUN 
