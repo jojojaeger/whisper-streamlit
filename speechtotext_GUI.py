@@ -11,7 +11,7 @@ import PySimpleGUI as sg
 import spacy, re
 
 # UI
-layout = [  [sg.Text('Wähle ein MP3 oder .wav File aus:')],
+layout = [  [sg.Text('Wähle ein Audio File aus:')],
             [sg.In() ,sg.FileBrowse(file_types=(("Audio Files", ".wav  .mp3 .m4a"),))],
             [sg.Button('Start'), sg.Button('Abbruch')]]
 
