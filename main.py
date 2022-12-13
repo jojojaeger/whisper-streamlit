@@ -1,10 +1,10 @@
 import whisper
 import sys
 import docx
+from datetime import datetime
 
-# Cd Documents\Study\Medizinische Informatik\WS22_23\Masterarbeit\Whisper
-# python main.py Nr2_Interview.wav
-
+#get datetime
+date = datetime.today().strftime('%Y-%m-%d')
 
 # define doc
 doc = docx.Document()
@@ -15,5 +15,4 @@ result = model.transcribe(sys.argv[1], language='german')
 print(result["text"])
 doc.add_paragraph(result["text"])
 
-#doc.save("C:/Users/jaeger/Transcripts/")
-doc.save("C:/Users/jaeger/Transcripts/" + sys.argv[1] + ".docx")
+doc.save("C:/Users/jaeger/Transcripts/" + sys.argv[1] + date + ".docx")
