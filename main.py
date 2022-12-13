@@ -9,8 +9,10 @@ date = datetime.today().strftime('%Y-%m-%d')
 # define doc
 doc = docx.Document()
 
+# SPEED vs ACCURACY tradeoff
 # models: large, medium (2x), small (6x), base (16x), tiny (32x as fast as large one)
 model = whisper.load_model("large")
+
 result = model.transcribe(sys.argv[1])
 print(result["text"])
 doc.add_paragraph(result["text"])
