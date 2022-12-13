@@ -3,16 +3,16 @@ import sys
 import docx
 from datetime import datetime
 
-#get datetime
+# get datetime
 date = datetime.today().strftime('%Y-%m-%d')
 
 # define doc
 doc = docx.Document()
-doc.add_heading('Transcript')
 
+# models: large, medium (2x), small (6x), base (16x), tiny (32x as fast as large one)
 model = whisper.load_model("large")
-result = model.transcribe(sys.argv[1], language='german')
+result = model.transcribe(sys.argv[1])
 print(result["text"])
 doc.add_paragraph(result["text"])
-
-doc.save("C:/Users/jaeger/Transcripts/" + sys.argv[1] + date + ".docx")
+# path 
+doc.save("C:/Users/Anna/Transcripts/" + sys.argv[1] + date + ".docx")
