@@ -51,11 +51,11 @@ if "transcription" in st.session_state:
             for idx, segment in enumerate(output['segments']):
                 for s in output['segments'][idx]['whole_word_timestamps']:
                     # Check for pauses in speech longer than 3s
-                    if timestamp != -1 and int(s['timestamp'] - timestamp) >= 3:
-                        pause = int(s['timestamp'] - timestamp)
-                        pause_str = "{" + str(pause) + "sek" + "}"
-                        text += str(f"""{" "}{"."*pause}{pause_str}""")
-                    timestamp = s['timestamp']
+                    #if timestamp != -1 and int(s['timestamp'] - timestamp) >= 3:
+                    #    pause = int(s['timestamp'] - timestamp)
+                    #    pause_str = "{" + str(pause) + "sek" + "}"
+                    #    text += str(f"""{" "}{"."*pause}{pause_str}""")
+                    #timestamp = s['timestamp']
                     text += (s['word'])
                     # Insert line break when there is a punctuation mark
                     if "!" in s['word'] or "?" in s['word'] or '.' in s['word']:
