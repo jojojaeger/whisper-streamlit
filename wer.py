@@ -33,9 +33,11 @@ print(measures["substitutions"])
 
 with open('ref.txt', 'w') as f:
     f.write(ground_truth)
+    f.close()
 
 with open('hyp.txt', 'w') as f:
     f.write(hypothesis)
+    f.close()
 
 args = ['wer', 'ref.txt', 'hyp.txt', '-c']
 
