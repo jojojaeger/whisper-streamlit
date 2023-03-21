@@ -1,0 +1,31 @@
+    def pyannote(pipeline, audio):
+        data, sample_rate = librosa.load(audio)
+        resampled_file = librosa.resample(
+            data, orig_sr=sample_rate, target_sr=16000)
+        sf.write('buffer.wav', resampled_file, sample_rate)
+        dz = pipeline('buffer.wav')
+        spacermilli = 2000
+        spacer = AudioSegment.silent(duration=spacermilli)
+        audio = AudioSegment.from_wav('buffer.wav')
+        audio = spacer.append(audio, crossfade=0)
+        audio.export('input_prep.wav', format='wav')
+
+        groups = []
+        g = []
+        lastend = 0
+
+        for d in dz:
+            if g and (g[0].split()[-1] != d.split()[-1]):  # same speaker
+                groups.append(g)
+                g = []
+            g.append(d)
+            end = re.findall('[0-9]+:[0-9]+:[0-9]+\.[0-9]+', string=d)[1]
+            end = Transcription.millisec(end)
+            if (lastend > end):  # segment engulfed by a previous segment
+                groups.append(g)
+                g = []
+            else:
+                lastend = end
+        if g:
+            groups.append(g)
+        print(*groups, sep='\n')
