@@ -13,12 +13,18 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 - Nothing is being uploaded to the cloud
 - Therefore safe clinical use 
 
+## User Interface
+
+Start Screen            |  Results
+:-------------------------:|:-------------------------:
+![](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)  |  ![](https://user-images.githubusercontent.com/65357373/226930996-26aaafb3-138c-4cea-964d-c9459c3e92f5.png)
+
 ## Getting Started
 
 To use this tool, you will need to install the required dependencies and run the Streamlit app. You can do this by following these steps:
 
 1. Clone the repository: git clone https://github.com/your-repo
-2. Install the dependencies: pip install -r requirements.txt
+2. Install dependencies: pip install -r requirements.txt
 3. Run the Streamlit app: streamlit run Transcribe.py (you can also launch it from a desktop shortcut following these instructions: https://discuss.streamlit.io/t/launching-streamlit-webapp-from-desktop-shortcut/26297)
 
 ## How to Use
