@@ -15,9 +15,7 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 
 ## User Interface
 
-![streamlit-start-screen](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)
-
-![streamlit results]([image1.png](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png "Start Screen") ![streamlit 2]([image2.png](https://user-images.githubusercontent.com/65357373/226930996-26aaafb3-138c-4cea-964d-c9459c3e92f5.png) "Results")
+![streamlit results]([https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png] "Start Screen") ![streamlit 2]([image2.png](https://user-images.githubusercontent.com/65357373/226930996-26aaafb3-138c-4cea-964d-c9459c3e92f5.png] "Results")
 
 ## Getting Started
 
