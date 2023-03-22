@@ -17,7 +17,7 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 
 Start Screen            |  Results
 :-------------------------:|:-------------------------:
-![]https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)  |  ![](https://user-images.githubusercontent.com/65357373/226930996-26aaafb3-138c-4cea-964d-c9459c3e92f5.png)
+![](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)  |  ![](https://user-images.githubusercontent.com/65357373/226930996-26aaafb3-138c-4cea-964d-c9459c3e92f5.png)
 
 ## Getting Started
 
