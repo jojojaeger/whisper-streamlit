@@ -121,8 +121,8 @@ if "transcription" in st.session_state:
             item_path = os.path.join('buffer', item)
             try:
                 with open(item_path, 'r') as file:
-                    # Do nothing - the file will automatically be closed when the block of code is finished executing
-                    os.remove(item_path)
+                    pass
+                os.remove(item_path)
             except:
                 pass
 else:
