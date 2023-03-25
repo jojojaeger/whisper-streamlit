@@ -53,7 +53,7 @@ class Transcription:
         for idx, g in enumerate(groups):
             start, end = map(Transcription.millisec, [re.findall(r'\d+:\d+:\d+\.\d+', g[0])[0],
                                                       re.findall(r'\d+:\d+:\d+\.\d+', g[-1])[1]])
-            audio[start:end].export(f'{idx}.wav', format='wav')
+            audio[start:end].export(f'buffer/{idx}.wav', format='wav')
             print(f"group {idx}: {start}--{end}")
         return groups
 
@@ -62,23 +62,24 @@ class Transcription:
         data, sample_rate = librosa.load(audio_file)
         resampled_file = librosa.resample(
             data, orig_sr=sample_rate, target_sr=16000)
-        sf.write('buffer.wav', resampled_file, sample_rate)
+        sf.write('buffer/audio.wav', resampled_file, sample_rate)
 
         # pyannote misses the first 0.5 s - add spacer
         spacermilli = 2000
         spacer = AudioSegment.silent(duration=spacermilli)
-        audio = AudioSegment.from_wav("buffer.wav")
+        audio = AudioSegment.from_wav("buffer/audio.wav")
         audio = spacer.append(audio, crossfade=0)
-        audio.export('buffer.wav', format='wav')
+        audio.export('buffer/audio.wav', format='wav')
 
         pipeline = Pipeline.from_pretrained(
             'pyannote/speaker-diarization', use_auth_token='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')
-        dz = pipeline('buffer.wav')
+        dz = pipeline('buffer/audio.wav')
         with open("diarization.txt", "w") as text_file:
             text_file.write(str(dz))
         dzs = open('diarization.txt').read().splitlines()
+        print(dzs)
 
-        groups = Transcription.get_groups(dzs, 'buffer.wav')
+        groups = Transcription.get_groups(dzs, 'buffer/audio.wav')
         return groups
 
     def transcribe(
@@ -104,10 +105,10 @@ class Transcription:
                 self.raw_output = {}
                 speaker_groups = Transcription.pyannote(self.audios[idx])
                 for i in range(len(speaker_groups)):
-                    audio = str(i) + '.wav'
+                    audio = 'buffer/' + str(i) + '.wav'
                     result = transcriber.transcribe(
                         audio=audio, language=language, verbose=True, word_timestamps=True)
-                    with open(str(i)+'.json', "w") as outfile:
+                    with open('buffer/' + str(i)+'.json', "w") as outfile:
                         json.dump(result, outfile, indent=4)
 
                 self.raw_output["diarization"] = speaker_groups
