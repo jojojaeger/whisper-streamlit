@@ -78,16 +78,18 @@ if "transcription" in st.session_state:
                                 if w['word']:
                                     if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
                                         pause = w['start'] - prev_word_end
-                                        text += f"{'.'*pause}{{{pause}sek}}"
+                                        pause_int = int(pause)
+                                        text += f'{"."*pause_int}{{{pause_int}sek}}'
                                     prev_word_end = w['end']
                                     text += w['word']
             else:
                 for idx, segment in enumerate(output['segments']):
-                    for word in output['segments'][idx]['words']:
+                    for w in output['segments'][idx]['words']:
                         # check for pauses in speech longer than 3s
                         if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
                             pause = w['start'] - prev_word_end
-                            text += f'{"."*pause}{{{pause}sek}}'
+                            pause_int = int(pause)
+                            text += f'{"."*pause_int}{{{pause_int}sek}}'
                         prev_word_end = w['end']
                         text += w['word']
                         # insert line break if there is a punctuation mark
