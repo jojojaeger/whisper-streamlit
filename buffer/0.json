@@ -1,0 +1,568 @@
+{
+    "text": " Also belegt, habe ich eigentlich schon ganz viel Leben lang inwiegend. In 16.000 Bezeckten obdecklen. Und umgezogen sind eigentlich nie, meine Eltern sind in einem Umgezogen. Also schon 16.000 Baure, da wollte ich dann eigentlich nicht mitzig und dann in der Wohng geblieben. Um mal \u00e4lter sind ja manchmal nicht weit aus sein von Kindern in sein Haus gezogen.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 3000,
+            "start": 32.32,
+            "end": 37.16,
+            "text": " Also belegt, habe ich eigentlich schon ganz viel Leben lang inwiegend.",
+            "tokens": [
+                50364,
+                2743,
+                312,
+                22745,
+                11,
+                6015,
+                1893,
+                10926,
+                4981,
+                6312,
+                5891,
+                15399,
+                2265,
+                294,
+                8699,
+                9395,
+                13,
+                50714
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " Also",
+                    "start": 32.32,
+                    "end": 32.76,
+                    "probability": 0.6787384748458862
+                },
+                {
+                    "word": " belegt,",
+                    "start": 32.76,
+                    "end": 33.18,
+                    "probability": 0.5553280413150787
+                },
+                {
+                    "word": " habe",
+                    "start": 33.26,
+                    "end": 33.36,
+                    "probability": 0.1849370300769806
+                },
+                {
+                    "word": " ich",
+                    "start": 33.36,
+                    "end": 33.5,
+                    "probability": 0.9978212118148804
+                },
+                {
+                    "word": " eigentlich",
+                    "start": 33.5,
+                    "end": 33.7,
+                    "probability": 0.5708824992179871
+                },
+                {
+                    "word": " schon",
+                    "start": 33.7,
+                    "end": 33.84,
+                    "probability": 0.5007175207138062
+                },
+                {
+                    "word": " ganz",
+                    "start": 33.84,
+                    "end": 34.04,
+                    "probability": 0.27339717745780945
+                },
+                {
+                    "word": " viel",
+                    "start": 34.04,
+                    "end": 35.42,
+                    "probability": 0.2216198891401291
+                },
+                {
+                    "word": " Leben",
+                    "start": 35.42,
+                    "end": 35.68,
+                    "probability": 0.20545360445976257
+                },
+                {
+                    "word": " lang",
+                    "start": 35.68,
+                    "end": 35.92,
+                    "probability": 0.8434937000274658
+                },
+                {
+                    "word": " inwiegend.",
+                    "start": 35.92,
+                    "end": 37.16,
+                    "probability": 0.4187382807334264
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 3000,
+            "start": 37.76,
+            "end": 39.34,
+            "text": " In 16.000 Bezeckten obdecklen.",
+            "tokens": [
+                50714,
+                682,
+                3165,
+                13,
+                1360,
+                879,
+                1381,
+                547,
+                1147,
+                1111,
+                1479,
+                547,
+                6698,
+                13,
+                50864
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " In",
+                    "start": 37.76,
+                    "end": 37.94,
+                    "probability": 0.18921023607254028
+                },
+                {
+                    "word": " 16",
+                    "start": 37.94,
+                    "end": 38.18,
+                    "probability": 0.7873067259788513
+                },
+                {
+                    "word": ".000",
+                    "start": 38.18,
+                    "end": 38.64,
+                    "probability": 0.37223272770643234
+                },
+                {
+                    "word": " Bezeckten",
+                    "start": 38.64,
+                    "end": 38.88,
+                    "probability": 0.3117559067904949
+                },
+                {
+                    "word": " obdecklen.",
+                    "start": 38.88,
+                    "end": 39.34,
+                    "probability": 0.3251672759652138
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 3000,
+            "start": 41.66,
+            "end": 47.3,
+            "text": " Und umgezogen sind eigentlich nie, meine Eltern sind in einem Umgezogen.",
+            "tokens": [
+                50864,
+                2719,
+                1105,
+                432,
+                42120,
+                3290,
+                10926,
+                2838,
+                11,
+                10946,
+                29101,
+                3290,
+                294,
+                6827,
+                3301,
+                432,
+                42120,
+                13,
+                51214
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " Und",
+                    "start": 41.66,
+                    "end": 42.36,
+                    "probability": 0.7727577686309814
+                },
+                {
+                    "word": " umgezogen",
+                    "start": 42.36,
+                    "end": 44.4,
+                    "probability": 0.8158233761787415
+                },
+                {
+                    "word": " sind",
+                    "start": 44.4,
+                    "end": 44.72,
+                    "probability": 0.9347310066223145
+                },
+                {
+                    "word": " eigentlich",
+                    "start": 44.72,
+                    "end": 45.08,
+                    "probability": 0.18359814584255219
+                },
+                {
+                    "word": " nie,",
+                    "start": 45.08,
+                    "end": 45.48,
+                    "probability": 0.6514295339584351
+                },
+                {
+                    "word": " meine",
+                    "start": 45.6,
+                    "end": 45.7,
+                    "probability": 0.771234393119812
+                },
+                {
+                    "word": " Eltern",
+                    "start": 45.7,
+                    "end": 45.96,
+                    "probability": 0.5896005034446716
+                },
+                {
+                    "word": " sind",
+                    "start": 45.96,
+                    "end": 46.12,
+                    "probability": 0.9872544407844543
+                },
+                {
+                    "word": " in",
+                    "start": 46.12,
+                    "end": 46.32,
+                    "probability": 0.288789302110672
+                },
+                {
+                    "word": " einem",
+                    "start": 46.32,
+                    "end": 46.32,
+                    "probability": 0.30159619450569153
+                },
+                {
+                    "word": " Umgezogen.",
+                    "start": 46.32,
+                    "end": 47.3,
+                    "probability": 0.9190377593040466
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 3000,
+            "start": 47.76,
+            "end": 52.54,
+            "text": " Also schon 16.000 Baure, da wollte ich dann eigentlich nicht mitzig und dann in der",
+            "tokens": [
+                51214,
+                2743,
+                4981,
+                3165,
+                13,
+                1360,
+                6777,
+                540,
+                11,
+                1120,
+                24509,
+                1893,
+                3594,
+                10926,
+                1979,
+                2194,
+                89,
+                328,
+                674,
+                3594,
+                294,
+                1163,
+                51484
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " Also",
+                    "start": 47.76,
+                    "end": 47.76,
+                    "probability": 0.9207475781440735
+                },
+                {
+                    "word": " schon",
+                    "start": 47.76,
+                    "end": 49.26,
+                    "probability": 0.5638608932495117
+                },
+                {
+                    "word": " 16",
+                    "start": 49.26,
+                    "end": 49.82,
+                    "probability": 0.4443589448928833
+                },
+                {
+                    "word": ".000",
+                    "start": 49.82,
+                    "end": 50.28,
+                    "probability": 0.6780592054128647
+                },
+                {
+                    "word": " Baure,",
+                    "start": 50.28,
+                    "end": 50.56,
+                    "probability": 0.16726624220609665
+                },
+                {
+                    "word": " da",
+                    "start": 50.64,
+                    "end": 50.74,
+                    "probability": 0.5027052164077759
+                },
+                {
+                    "word": " wollte",
+                    "start": 50.74,
+                    "end": 50.8,
+                    "probability": 0.6234918236732483
+                },
+                {
+                    "word": " ich",
+                    "start": 50.8,
+                    "end": 50.98,
+                    "probability": 0.9993082284927368
+                },
+                {
+                    "word": " dann",
+                    "start": 50.98,
+                    "end": 51.2,
+                    "probability": 0.504638135433197
+                },
+                {
+                    "word": " eigentlich",
+                    "start": 51.2,
+                    "end": 51.32,
+                    "probability": 0.9860644340515137
+                },
+                {
+                    "word": " nicht",
+                    "start": 51.32,
+                    "end": 51.52,
+                    "probability": 0.8010222911834717
+                },
+                {
+                    "word": " mitzig",
+                    "start": 51.52,
+                    "end": 51.86,
+                    "probability": 0.26448485255241394
+                },
+                {
+                    "word": " und",
+                    "start": 51.86,
+                    "end": 52.06,
+                    "probability": 0.598244845867157
+                },
+                {
+                    "word": " dann",
+                    "start": 52.06,
+                    "end": 52.26,
+                    "probability": 0.4262268543243408
+                },
+                {
+                    "word": " in",
+                    "start": 52.26,
+                    "end": 52.42,
+                    "probability": 0.8519649505615234
+                },
+                {
+                    "word": " der",
+                    "start": 52.42,
+                    "end": 52.54,
+                    "probability": 0.9532029032707214
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 3000,
+            "start": 52.54,
+            "end": 53.58,
+            "text": " Wohng geblieben.",
+            "tokens": [
+                51484,
+                343,
+                1445,
+                872,
+                1519,
+                5199,
+                38243,
+                13,
+                51534
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " Wohng",
+                    "start": 52.54,
+                    "end": 52.76,
+                    "probability": 0.2914922883113225
+                },
+                {
+                    "word": " geblieben.",
+                    "start": 52.76,
+                    "end": 53.58,
+                    "probability": 0.472985381881396
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 3000,
+            "start": 54.36,
+            "end": 57.18,
+            "text": " Um mal \u00e4lter sind ja manchmal nicht weit aus sein von Kindern in sein Haus gezogen.",
+            "tokens": [
+                51534,
+                3301,
+                2806,
+                3078,
+                75,
+                391,
+                3290,
+                2784,
+                32092,
+                1979,
+                15306,
+                3437,
+                6195,
+                2957,
+                43987,
+                294,
+                6195,
+                22725,
+                18110,
+                8799,
+                13,
+                51764
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.8384940535933884,
+            "compression_ratio": 1.592920353982301,
+            "no_speech_prob": 0.005785743705928326,
+            "words": [
+                {
+                    "word": " Um",
+                    "start": 54.36,
+                    "end": 54.46,
+                    "probability": 0.4987580180168152
+                },
+                {
+                    "word": " mal",
+                    "start": 54.46,
+                    "end": 54.58,
+                    "probability": 0.13002289831638336
+                },
+                {
+                    "word": " \u00e4lter",
+                    "start": 54.58,
+                    "end": 54.76,
+                    "probability": 0.40461907784144086
+                },
+                {
+                    "word": " sind",
+                    "start": 54.76,
+                    "end": 54.9,
+                    "probability": 0.5822203159332275
+                },
+                {
+                    "word": " ja",
+                    "start": 54.9,
+                    "end": 55.02,
+                    "probability": 0.25234249234199524
+                },
+                {
+                    "word": " manchmal",
+                    "start": 55.02,
+                    "end": 55.06,
+                    "probability": 0.34557461738586426
+                },
+                {
+                    "word": " nicht",
+                    "start": 55.06,
+                    "end": 55.24,
+                    "probability": 0.9470261335372925
+                },
+                {
+                    "word": " weit",
+                    "start": 55.24,
+                    "end": 55.44,
+                    "probability": 0.4497891068458557
+                },
+                {
+                    "word": " aus",
+                    "start": 55.44,
+                    "end": 55.64,
+                    "probability": 0.5058659315109253
+                },
+                {
+                    "word": " sein",
+                    "start": 55.64,
+                    "end": 55.78,
+                    "probability": 0.22568804025650024
+                },
+                {
+                    "word": " von",
+                    "start": 55.78,
+                    "end": 55.94,
+                    "probability": 0.5361970663070679
+                },
+                {
+                    "word": " Kindern",
+                    "start": 55.94,
+                    "end": 56.18,
+                    "probability": 0.2958148121833801
+                },
+                {
+                    "word": " in",
+                    "start": 56.18,
+                    "end": 56.42,
+                    "probability": 0.3288221061229706
+                },
+                {
+                    "word": " sein",
+                    "start": 56.42,
+                    "end": 56.54,
+                    "probability": 0.16684308648109436
+                },
+                {
+                    "word": " Haus",
+                    "start": 56.54,
+                    "end": 56.78,
+                    "probability": 0.9450865387916565
+                },
+                {
+                    "word": " gezogen.",
+                    "start": 56.78,
+                    "end": 57.18,
+                    "probability": 0.7062070220708847
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

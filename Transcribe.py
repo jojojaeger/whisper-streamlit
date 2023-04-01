@@ -64,8 +64,11 @@ if "transcription" in st.session_state:
             if speaker_diarization:
                 speakers = {'SPEAKER_00': 'A', 'SPEAKER_01': 'B'}
                 for idx, group in enumerate(output['diarization']):
-                    captions = json.load(
-                        open(f"buffer/{idx}.json"))['segments']
+                    try:
+                        captions = json.load(
+                            open(f"buffer/{idx}.json"))['segments']
+                    except Exception as ex:
+                        print(ex)
                     if captions:
                         if idx == 0 and speakers.get(group[0].split()[-1], "") == 'B':
                             speakers['SPEAKER_00'], speakers['SPEAKER_01'] = speakers['SPEAKER_01'], speakers['SPEAKER_00']

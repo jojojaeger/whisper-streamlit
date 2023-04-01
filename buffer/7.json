@@ -1,0 +1,31 @@
+{
+    "text": " Und...",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 0.46,
+            "text": " Und...",
+            "tokens": [
+                50364,
+                2719,
+                485,
+                50464
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -2.247965431213379,
+            "compression_ratio": 0.42857142857142855,
+            "no_speech_prob": 0.5624454617500305,
+            "words": [
+                {
+                    "word": " Und...",
+                    "start": 0.0,
+                    "end": 0.46,
+                    "probability": 0.01668361504562199
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

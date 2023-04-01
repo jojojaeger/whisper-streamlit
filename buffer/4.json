@@ -1,0 +1,299 @@
+{
+    "text": " Mund... ich wollte denen... ha \u3042\u308a mana ... ein suchtoe border ne, ein du bist doch immer sehr hart, dass du den alles macht, ein typiker",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 2.88,
+            "end": 3.32,
+            "text": " Mund...",
+            "tokens": [
+                50364,
+                376,
+                997,
+                485,
+                50415
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " Mund...",
+                    "start": 2.88,
+                    "end": 3.32,
+                    "probability": 0.017219648386041325
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 3.32,
+            "end": 5.82,
+            "text": " ich wollte denen...",
+            "tokens": [
+                50488,
+                1893,
+                24509,
+                19998,
+                485,
+                50578
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " ich",
+                    "start": 3.32,
+                    "end": 3.62,
+                    "probability": 0.001975665334612131
+                },
+                {
+                    "word": " wollte",
+                    "start": 3.62,
+                    "end": 3.76,
+                    "probability": 0.004013477824628353
+                },
+                {
+                    "word": " denen...",
+                    "start": 3.76,
+                    "end": 5.82,
+                    "probability": 0.1177827940118732
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 5.82,
+            "end": 6.62,
+            "text": " ha \u3042\u308a mana ... ein suchtoe border",
+            "tokens": [
+                50649,
+                324,
+                49444,
+                21225,
+                1097,
+                1343,
+                1270,
+                83,
+                7921,
+                7838,
+                50700
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " ha",
+                    "start": 5.82,
+                    "end": 6.04,
+                    "probability": 0.006113168317824602
+                },
+                {
+                    "word": " \u3042\u308a",
+                    "start": 6.04,
+                    "end": 6.08,
+                    "probability": 2.1625044610118493e-05
+                },
+                {
+                    "word": " mana",
+                    "start": 6.08,
+                    "end": 6.42,
+                    "probability": 1.6327610865118913e-05
+                },
+                {
+                    "word": " ...",
+                    "start": 6.42,
+                    "end": 6.42,
+                    "probability": 0.17296825349330902
+                },
+                {
+                    "word": " ein",
+                    "start": 6.42,
+                    "end": 6.42,
+                    "probability": 0.021996894851326942
+                },
+                {
+                    "word": " suchtoe",
+                    "start": 6.42,
+                    "end": 6.62,
+                    "probability": 0.011775957589028016
+                },
+                {
+                    "word": " border",
+                    "start": 6.62,
+                    "end": 6.62,
+                    "probability": 1.9160594092682004e-05
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 6.62,
+            "end": 7.56,
+            "text": " ne, ein",
+            "tokens": [
+                50709,
+                408,
+                11,
+                1343,
+                51365
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " ne,",
+                    "start": 6.62,
+                    "end": 6.78,
+                    "probability": 0.000223620401811786
+                },
+                {
+                    "word": " ein",
+                    "start": 7.36,
+                    "end": 7.56,
+                    "probability": 0.278118759393692
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 0,
+            "start": 7.56,
+            "end": 24.26,
+            "text": " du bist doch immer sehr hart, dass du den",
+            "tokens": [
+                51423,
+                1581,
+                18209,
+                9243,
+                5578,
+                5499,
+                36644,
+                11,
+                2658,
+                1581,
+                1441,
+                51550
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " du",
+                    "start": 7.56,
+                    "end": 7.72,
+                    "probability": 0.0001724359899526462
+                },
+                {
+                    "word": " bist",
+                    "start": 7.72,
+                    "end": 8.98,
+                    "probability": 0.0032097992952913046
+                },
+                {
+                    "word": " doch",
+                    "start": 8.98,
+                    "end": 9.06,
+                    "probability": 0.0021210850682109594
+                },
+                {
+                    "word": " immer",
+                    "start": 9.06,
+                    "end": 9.22,
+                    "probability": 0.05337793380022049
+                },
+                {
+                    "word": " sehr",
+                    "start": 9.22,
+                    "end": 22.7,
+                    "probability": 0.01466790959239006
+                },
+                {
+                    "word": " hart,",
+                    "start": 22.7,
+                    "end": 23.0,
+                    "probability": 0.04127207398414612
+                },
+                {
+                    "word": " dass",
+                    "start": 23.1,
+                    "end": 23.38,
+                    "probability": 0.14775574207305908
+                },
+                {
+                    "word": " du",
+                    "start": 23.38,
+                    "end": 23.48,
+                    "probability": 0.28110578656196594
+                },
+                {
+                    "word": " den",
+                    "start": 23.48,
+                    "end": 24.26,
+                    "probability": 0.008285343647003174
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 0,
+            "start": 24.26,
+            "end": 25.76,
+            "text": " alles macht, ein typiker",
+            "tokens": [
+                51550,
+                7874,
+                10857,
+                11,
+                1343,
+                2125,
+                17314,
+                51636
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.3225758870442705,
+            "compression_ratio": 1.2173913043478262,
+            "no_speech_prob": 0.021076003089547157,
+            "words": [
+                {
+                    "word": " alles",
+                    "start": 24.26,
+                    "end": 24.44,
+                    "probability": 0.003460936015471816
+                },
+                {
+                    "word": " macht,",
+                    "start": 24.44,
+                    "end": 24.44,
+                    "probability": 0.0016091971192508936
+                },
+                {
+                    "word": " ein",
+                    "start": 25.0,
+                    "end": 25.02,
+                    "probability": 0.003299813251942396
+                },
+                {
+                    "word": " typiker",
+                    "start": 25.02,
+                    "end": 25.76,
+                    "probability": 0.0538518694229424
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

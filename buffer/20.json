@@ -1,0 +1,83 @@
+{
+    "text": " Der funkt also so nicht indo",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 29.98,
+            "text": " Der funkt also so nicht",
+            "tokens": [
+                50364,
+                5618,
+                1019,
+                2320,
+                611,
+                370,
+                1979,
+                51839
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.206351089477539,
+            "compression_ratio": 0.7931034482758621,
+            "no_speech_prob": 0.5253303647041321,
+            "words": [
+                {
+                    "word": " Der",
+                    "start": 0.0,
+                    "end": 3.16,
+                    "probability": 0.003749639028683305
+                },
+                {
+                    "word": " funkt",
+                    "start": 3.16,
+                    "end": 29.98,
+                    "probability": 0.24958019961195532
+                },
+                {
+                    "word": " also",
+                    "start": 29.98,
+                    "end": 29.98,
+                    "probability": 0.0017524149734526873
+                },
+                {
+                    "word": " so",
+                    "start": 29.98,
+                    "end": 29.98,
+                    "probability": 0.013798190280795097
+                },
+                {
+                    "word": " nicht",
+                    "start": 29.98,
+                    "end": 29.98,
+                    "probability": 0.005860895849764347
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 2998,
+            "start": 29.98,
+            "end": 31.1,
+            "text": " indo",
+            "tokens": [
+                50391,
+                13770,
+                50644
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -6.27158784866333,
+            "compression_ratio": 0.3333333333333333,
+            "no_speech_prob": 0.5295674800872803,
+            "words": [
+                {
+                    "word": " indo",
+                    "start": 29.98,
+                    "end": 31.1,
+                    "probability": 1.9958330085501075e-05
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

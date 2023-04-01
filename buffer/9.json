@@ -1,0 +1,46 @@
+{
+    "text": " Copyright WDR 2021",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.34,
+            "end": 0.42,
+            "text": " Copyright WDR 2021",
+            "tokens": [
+                50364,
+                25653,
+                1938,
+                343,
+                9301,
+                7201,
+                50464
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.7007610201835632,
+            "compression_ratio": 0.6923076923076923,
+            "no_speech_prob": 0.942912220954895,
+            "words": [
+                {
+                    "word": " Copyright",
+                    "start": 0.34,
+                    "end": 0.38,
+                    "probability": 0.5024806563742459
+                },
+                {
+                    "word": " WDR",
+                    "start": 0.38,
+                    "end": 0.4,
+                    "probability": 0.8609307110309601
+                },
+                {
+                    "word": " 2021",
+                    "start": 0.4,
+                    "end": 0.42,
+                    "probability": 0.3912467956542969
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

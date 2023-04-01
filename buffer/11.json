@@ -1,0 +1,105 @@
+{
+    "text": " Also ich kann laat sind wie hier? Ein bisschen.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 1.74,
+            "text": " Also ich kann laat sind wie hier?",
+            "tokens": [
+                50364,
+                2743,
+                1893,
+                4028,
+                32769,
+                3290,
+                3355,
+                3296,
+                30,
+                50472
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -3.897026300430298,
+            "compression_ratio": 0.8545454545454545,
+            "no_speech_prob": 0.21561549603939056,
+            "words": [
+                {
+                    "word": " Also",
+                    "start": 0.0,
+                    "end": 0.36,
+                    "probability": 0.014101953245699406
+                },
+                {
+                    "word": " ich",
+                    "start": 0.36,
+                    "end": 0.46,
+                    "probability": 0.1276254504919052
+                },
+                {
+                    "word": " kann",
+                    "start": 0.46,
+                    "end": 0.6,
+                    "probability": 0.040588587522506714
+                },
+                {
+                    "word": " laat",
+                    "start": 0.6,
+                    "end": 0.84,
+                    "probability": 0.00011098153481725603
+                },
+                {
+                    "word": " sind",
+                    "start": 0.84,
+                    "end": 0.98,
+                    "probability": 0.000544537091627717
+                },
+                {
+                    "word": " wie",
+                    "start": 0.98,
+                    "end": 1.1,
+                    "probability": 0.004251100122928619
+                },
+                {
+                    "word": " hier?",
+                    "start": 1.1,
+                    "end": 1.74,
+                    "probability": 0.012890070676803589
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 2.22,
+            "end": 3.32,
+            "text": " Ein bisschen.",
+            "tokens": [
+                50477,
+                6391,
+                10763,
+                13,
+                50538
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -3.897026300430298,
+            "compression_ratio": 0.8545454545454545,
+            "no_speech_prob": 0.21561549603939056,
+            "words": [
+                {
+                    "word": " Ein",
+                    "start": 2.22,
+                    "end": 2.4,
+                    "probability": 0.004007501062005758
+                },
+                {
+                    "word": " bisschen.",
+                    "start": 2.4,
+                    "end": 3.32,
+                    "probability": 0.1970030963420868
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

@@ -1,0 +1,1797 @@
+{
+    "text": " Weilet dich course... Frau eines K\u00f6l\u5b9a aus substitute Z \u0643st' Und dann dachte ich, das stimento an sich gibt. Dann Place chili mit b\u00ean Ahhnen nach bleiben und us<|de|> das iceen. Es istay\u0131m, alsods Luftoren ist auf den Wohren. Das hat mich anl about ins \ubb3c\uc5b4\ufffd rumgeschathen gekoustern. Als Freundesger assassination hat er mich als Trenn warnings habenchen\ufffdcks? Schme Legale, dann r Northwestern ob Sieasti mit der sie gar purchased, als die Standen machen, uykettend output\u0631\u0636, auf den Wohrenmiss- Das hat sagen, dass nat\u00fcrlich die Rad n\u01b0\u1edbc eben tot aussieht. wante schon einen Spotplatz, sondern eine \u043d\u0435\u043e\u0431derte homische Bank Aber wir haben sie sehr Die Rungzen nach mir thinkt, Ama... und gerade stanahm hier egal, dass sie herbalites Farse an ordentlich haben Remember Naah, als ich gar oft was tun willst. Ich brauch gerade E\u3063\u305f lang und komm nicht Farrecho. Und ich\u73a9 schr\u00e4nkert schon ein B Fool ... Aber hier ... Das sinkt man gar nicht nach den everybody macht ... H\u00f6rt das einen, denn da darf man bin heute wieder lang. Hat Melissa ein Wind und Someone \u00fcber cystig touch oder ein D\u00e4uto.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 1.64,
+            "text": " Weilet dich course...",
+            "tokens": [
+                50364,
+                492,
+                388,
+                302,
+                10390,
+                1164,
+                485,
+                50463
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Weilet",
+                    "start": 0.0,
+                    "end": 0.48,
+                    "probability": 0.0736251026391983
+                },
+                {
+                    "word": " dich",
+                    "start": 0.48,
+                    "end": 0.68,
+                    "probability": 0.5961817502975464
+                },
+                {
+                    "word": " course...",
+                    "start": 0.68,
+                    "end": 1.64,
+                    "probability": 0.02290002116933465
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 1.64,
+            "end": 5.78,
+            "text": " Frau eines K\u00f6l\u5b9a aus substitute Z \u0643st'",
+            "tokens": [
+                50478,
+                13930,
+                18599,
+                591,
+                13072,
+                12088,
+                3437,
+                15802,
+                1176,
+                9122,
+                372,
+                6,
+                50594
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Frau",
+                    "start": 1.64,
+                    "end": 1.82,
+                    "probability": 0.027984309941530228
+                },
+                {
+                    "word": " eines",
+                    "start": 1.82,
+                    "end": 2.02,
+                    "probability": 0.0537809394299984
+                },
+                {
+                    "word": " K\u00f6l\u5b9a",
+                    "start": 2.02,
+                    "end": 2.34,
+                    "probability": 0.04311828040772525
+                },
+                {
+                    "word": " aus",
+                    "start": 2.34,
+                    "end": 2.62,
+                    "probability": 0.0407402403652668
+                },
+                {
+                    "word": " substitute",
+                    "start": 2.62,
+                    "end": 4.0,
+                    "probability": 1.5247882402036339e-05
+                },
+                {
+                    "word": " Z",
+                    "start": 4.0,
+                    "end": 5.78,
+                    "probability": 0.04592444747686386
+                },
+                {
+                    "word": " \u0643st'",
+                    "start": 5.78,
+                    "end": 5.78,
+                    "probability": 0.08826486340012707
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 5.78,
+            "end": 7.48,
+            "text": " Und dann dachte ich, das stimento an sich gibt.",
+            "tokens": [
+                50657,
+                2719,
+                3594,
+                39775,
+                1893,
+                11,
+                1482,
+                342,
+                10030,
+                364,
+                3041,
+                6089,
+                13,
+                50731
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Und",
+                    "start": 5.78,
+                    "end": 5.88,
+                    "probability": 0.005470558535307646
+                },
+                {
+                    "word": " dann",
+                    "start": 5.88,
+                    "end": 6.1,
+                    "probability": 0.764868974685669
+                },
+                {
+                    "word": " dachte",
+                    "start": 6.1,
+                    "end": 6.32,
+                    "probability": 0.0016414346173405647
+                },
+                {
+                    "word": " ich,",
+                    "start": 6.32,
+                    "end": 6.6,
+                    "probability": 0.835020899772644
+                },
+                {
+                    "word": " das",
+                    "start": 6.9,
+                    "end": 7.0,
+                    "probability": 0.0479767881333828
+                },
+                {
+                    "word": " stimento",
+                    "start": 7.0,
+                    "end": 7.0,
+                    "probability": 0.00148863933281973
+                },
+                {
+                    "word": " an",
+                    "start": 7.0,
+                    "end": 7.04,
+                    "probability": 0.007198276463896036
+                },
+                {
+                    "word": " sich",
+                    "start": 7.04,
+                    "end": 7.26,
+                    "probability": 0.1329866200685501
+                },
+                {
+                    "word": " gibt.",
+                    "start": 7.26,
+                    "end": 7.48,
+                    "probability": 0.002841415349394083
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 7.54,
+            "end": 10.9,
+            "text": " Dann Place chili mit b\u00ean Ahhnen nach bleiben und us das iceen.",
+            "tokens": [
+                50744,
+                7455,
+                13637,
+                15575,
+                2194,
+                43730,
+                17116,
+                2866,
+                5168,
+                24912,
+                674,
+                505,
+                50261,
+                1482,
+                4435,
+                268,
+                13,
+                50904
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Dann",
+                    "start": 7.54,
+                    "end": 7.7,
+                    "probability": 0.498017281293869
+                },
+                {
+                    "word": " Place",
+                    "start": 7.7,
+                    "end": 7.86,
+                    "probability": 3.780992847168818e-05
+                },
+                {
+                    "word": " chili",
+                    "start": 7.86,
+                    "end": 8.14,
+                    "probability": 2.3726929612166714e-06
+                },
+                {
+                    "word": " mit",
+                    "start": 8.14,
+                    "end": 8.66,
+                    "probability": 0.01683591865003109
+                },
+                {
+                    "word": " b\u00ean",
+                    "start": 8.66,
+                    "end": 9.14,
+                    "probability": 7.079834176693112e-06
+                },
+                {
+                    "word": " Ahhnen",
+                    "start": 9.14,
+                    "end": 9.14,
+                    "probability": 0.005575967923505232
+                },
+                {
+                    "word": " nach",
+                    "start": 9.14,
+                    "end": 9.14,
+                    "probability": 0.001789942616596818
+                },
+                {
+                    "word": " bleiben",
+                    "start": 9.14,
+                    "end": 9.74,
+                    "probability": 0.0021080137230455875
+                },
+                {
+                    "word": " und",
+                    "start": 9.74,
+                    "end": 10.0,
+                    "probability": 0.15040940046310425
+                },
+                {
+                    "word": " us",
+                    "start": 10.0,
+                    "end": 10.42,
+                    "probability": 0.00046657270286232233
+                },
+                {
+                    "word": " das",
+                    "start": 10.42,
+                    "end": 10.42,
+                    "probability": 1.3570739611168392e-05
+                },
+                {
+                    "word": " iceen.",
+                    "start": 10.42,
+                    "end": 10.9,
+                    "probability": 0.00955783295648871
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 0,
+            "start": 11.88,
+            "end": 15.7,
+            "text": " Es istay\u0131m, alsods Luftoren ist auf den Wohren.",
+            "tokens": [
+                50932,
+                2313,
+                1418,
+                16797,
+                11,
+                611,
+                16063,
+                26995,
+                10948,
+                1418,
+                2501,
+                1441,
+                343,
+                1445,
+                1095,
+                13,
+                51149
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Es",
+                    "start": 11.88,
+                    "end": 12.66,
+                    "probability": 0.006463517434895039
+                },
+                {
+                    "word": " istay\u0131m,",
+                    "start": 12.66,
+                    "end": 14.16,
+                    "probability": 0.228554829312543
+                },
+                {
+                    "word": " alsods",
+                    "start": 14.26,
+                    "end": 14.84,
+                    "probability": 0.002367935162055801
+                },
+                {
+                    "word": " Luftoren",
+                    "start": 14.84,
+                    "end": 14.86,
+                    "probability": 8.804317440080922e-05
+                },
+                {
+                    "word": " ist",
+                    "start": 14.86,
+                    "end": 15.08,
+                    "probability": 0.08322504162788391
+                },
+                {
+                    "word": " auf",
+                    "start": 15.08,
+                    "end": 15.24,
+                    "probability": 0.6026943325996399
+                },
+                {
+                    "word": " den",
+                    "start": 15.24,
+                    "end": 15.46,
+                    "probability": 0.22867485880851746
+                },
+                {
+                    "word": " Wohren.",
+                    "start": 15.46,
+                    "end": 15.7,
+                    "probability": 0.224736658235391
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 0,
+            "start": 15.94,
+            "end": 21.2,
+            "text": " Das hat mich anl about ins \ubb3c\uc5b4\ufffd rumgeschathen gekoustern.",
+            "tokens": [
+                51156,
+                2846,
+                2385,
+                6031,
+                364,
+                75,
+                466,
+                1028,
+                44558,
+                8347,
+                23378,
+                998,
+                268,
+                14037,
+                15849,
+                1248,
+                13,
+                51357
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Das",
+                    "start": 15.94,
+                    "end": 15.94,
+                    "probability": 0.20262587070465088
+                },
+                {
+                    "word": " hat",
+                    "start": 15.94,
+                    "end": 16.22,
+                    "probability": 0.03087594173848629
+                },
+                {
+                    "word": " mich",
+                    "start": 16.22,
+                    "end": 16.78,
+                    "probability": 0.20732168853282928
+                },
+                {
+                    "word": " anl",
+                    "start": 16.78,
+                    "end": 18.2,
+                    "probability": 0.004670159425586462
+                },
+                {
+                    "word": " about",
+                    "start": 18.2,
+                    "end": 18.2,
+                    "probability": 0.0006037610000930727
+                },
+                {
+                    "word": " ins",
+                    "start": 18.2,
+                    "end": 18.44,
+                    "probability": 0.0009208589908666909
+                },
+                {
+                    "word": " \ubb3c\uc5b4\ufffd",
+                    "start": 18.44,
+                    "end": 19.02,
+                    "probability": 6.315992504823953e-05
+                },
+                {
+                    "word": " rumgeschathen",
+                    "start": 19.02,
+                    "end": 19.28,
+                    "probability": 0.16007572392300062
+                },
+                {
+                    "word": " gekoustern.",
+                    "start": 19.28,
+                    "end": 21.2,
+                    "probability": 0.017236732498228474
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 0,
+            "start": 21.98,
+            "end": 27.2,
+            "text": " Als Freundesger assassination hat er mich als Trenn warnings habenchen\ufffdcks?",
+            "tokens": [
+                51578,
+                12948,
+                29685,
+                279,
+                1321,
+                40195,
+                2385,
+                1189,
+                6031,
+                3907,
+                314,
+                1095,
+                77,
+                30009,
+                3084,
+                2470,
+                14605,
+                2761,
+                30,
+                51688
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Als",
+                    "start": 21.98,
+                    "end": 24.02,
+                    "probability": 0.0030306116677820683
+                },
+                {
+                    "word": " Freundesger",
+                    "start": 24.02,
+                    "end": 24.48,
+                    "probability": 0.17508151484071277
+                },
+                {
+                    "word": " assassination",
+                    "start": 24.48,
+                    "end": 24.6,
+                    "probability": 9.339818643638864e-05
+                },
+                {
+                    "word": " hat",
+                    "start": 24.6,
+                    "end": 25.06,
+                    "probability": 0.10674430429935455
+                },
+                {
+                    "word": " er",
+                    "start": 25.06,
+                    "end": 25.22,
+                    "probability": 0.06938546150922775
+                },
+                {
+                    "word": " mich",
+                    "start": 25.22,
+                    "end": 25.36,
+                    "probability": 0.14842656254768372
+                },
+                {
+                    "word": " als",
+                    "start": 25.36,
+                    "end": 25.86,
+                    "probability": 0.002063608495518565
+                },
+                {
+                    "word": " Trenn",
+                    "start": 25.86,
+                    "end": 27.14,
+                    "probability": 0.11718391733787333
+                },
+                {
+                    "word": " warnings",
+                    "start": 27.14,
+                    "end": 27.14,
+                    "probability": 1.5477950000786223e-05
+                },
+                {
+                    "word": " habenchen\ufffdcks?",
+                    "start": 27.14,
+                    "end": 27.2,
+                    "probability": 0.0006448692154776836
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 0,
+            "start": 27.2,
+            "end": 29.32,
+            "text": " Schme Legale, dann r Northwestern ob Sieasti",
+            "tokens": [
+                51722,
+                2065,
+                1398,
+                33577,
+                68,
+                11,
+                3594,
+                367,
+                26068,
+                1248,
+                1111,
+                3559,
+                24080,
+                51820
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.056734906948678,
+            "compression_ratio": 1.337620578778135,
+            "no_speech_prob": 0.3269355297088623,
+            "words": [
+                {
+                    "word": " Schme",
+                    "start": 27.2,
+                    "end": 27.44,
+                    "probability": 0.007066911173751578
+                },
+                {
+                    "word": " Legale,",
+                    "start": 27.44,
+                    "end": 27.44,
+                    "probability": 0.008745353324684402
+                },
+                {
+                    "word": " dann",
+                    "start": 27.44,
+                    "end": 27.44,
+                    "probability": 0.02943013794720173
+                },
+                {
+                    "word": " r",
+                    "start": 27.44,
+                    "end": 27.98,
+                    "probability": 0.01100629661232233
+                },
+                {
+                    "word": " Northwestern",
+                    "start": 27.98,
+                    "end": 28.16,
+                    "probability": 0.42947482564602524
+                },
+                {
+                    "word": " ob",
+                    "start": 28.16,
+                    "end": 28.66,
+                    "probability": 0.00028938864124938846
+                },
+                {
+                    "word": " Sieasti",
+                    "start": 28.66,
+                    "end": 29.32,
+                    "probability": 0.003443499976356179
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 3000,
+            "start": 30.0,
+            "end": 31.74,
+            "text": " mit der sie gar purchased, als die Standen machen,",
+            "tokens": [
+                50373,
+                2194,
+                1163,
+                2804,
+                3691,
+                14734,
+                11,
+                3907,
+                978,
+                745,
+                28762,
+                7069,
+                11,
+                50380
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " mit",
+                    "start": 30.0,
+                    "end": 30.36,
+                    "probability": 0.06151202693581581
+                },
+                {
+                    "word": " der",
+                    "start": 30.36,
+                    "end": 30.52,
+                    "probability": 0.44354477524757385
+                },
+                {
+                    "word": " sie",
+                    "start": 30.52,
+                    "end": 30.62,
+                    "probability": 0.25542253255844116
+                },
+                {
+                    "word": " gar",
+                    "start": 30.62,
+                    "end": 30.74,
+                    "probability": 0.010938271880149841
+                },
+                {
+                    "word": " purchased,",
+                    "start": 30.74,
+                    "end": 31.0,
+                    "probability": 0.00025099347112700343
+                },
+                {
+                    "word": " als",
+                    "start": 31.06,
+                    "end": 31.38,
+                    "probability": 0.004847064148634672
+                },
+                {
+                    "word": " die",
+                    "start": 31.38,
+                    "end": 31.38,
+                    "probability": 0.06985845416784286
+                },
+                {
+                    "word": " Standen",
+                    "start": 31.38,
+                    "end": 31.38,
+                    "probability": 0.06431437004357576
+                },
+                {
+                    "word": " machen,",
+                    "start": 31.38,
+                    "end": 31.74,
+                    "probability": 0.045662444084882736
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 3000,
+            "start": 31.82,
+            "end": 34.42,
+            "text": " uykettend output\u0631\u0636, auf den Wohrenmiss-",
+            "tokens": [
+                50450,
+                28266,
+                74,
+                3093,
+                521,
+                5598,
+                43042,
+                11,
+                2501,
+                1441,
+                343,
+                1445,
+                1095,
+                76,
+                891,
+                12,
+                50562
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " uykettend",
+                    "start": 31.82,
+                    "end": 32.44,
+                    "probability": 0.10722678149591047
+                },
+                {
+                    "word": " output\u0631\u0636,",
+                    "start": 32.44,
+                    "end": 33.42,
+                    "probability": 3.655221803455788e-06
+                },
+                {
+                    "word": " auf",
+                    "start": 33.42,
+                    "end": 33.64,
+                    "probability": 0.0024544105399399996
+                },
+                {
+                    "word": " den",
+                    "start": 33.64,
+                    "end": 33.64,
+                    "probability": 0.11106139421463013
+                },
+                {
+                    "word": " Wohrenmiss",
+                    "start": 33.64,
+                    "end": 34.42,
+                    "probability": 0.046243483945727346
+                },
+                {
+                    "word": "-",
+                    "start": 34.42,
+                    "end": 34.42,
+                    "probability": 0.011459147557616234
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "seek": 3000,
+            "start": 34.42,
+            "end": 34.42,
+            "text": "",
+            "tokens": [],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": []
+        },
+        {
+            "id": 11,
+            "seek": 3000,
+            "start": 34.42,
+            "end": 39.82,
+            "text": " Das hat sagen, dass nat\u00fcrlich die Rad n\u01b0\u1edbc eben tot aussieht.",
+            "tokens": [
+                50703,
+                2846,
+                2385,
+                8360,
+                11,
+                2658,
+                8762,
+                978,
+                9654,
+                30728,
+                11375,
+                1993,
+                5730,
+                39850,
+                13,
+                50873
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " Das",
+                    "start": 34.42,
+                    "end": 36.98,
+                    "probability": 0.03495428338646889
+                },
+                {
+                    "word": " hat",
+                    "start": 36.98,
+                    "end": 37.2,
+                    "probability": 0.10831735283136368
+                },
+                {
+                    "word": " sagen,",
+                    "start": 37.2,
+                    "end": 37.64,
+                    "probability": 0.0005932101048529148
+                },
+                {
+                    "word": " dass",
+                    "start": 37.64,
+                    "end": 37.68,
+                    "probability": 0.4086763262748718
+                },
+                {
+                    "word": " nat\u00fcrlich",
+                    "start": 37.68,
+                    "end": 38.22,
+                    "probability": 0.00016048115503508598
+                },
+                {
+                    "word": " die",
+                    "start": 38.22,
+                    "end": 38.86,
+                    "probability": 0.16293063759803772
+                },
+                {
+                    "word": " Rad",
+                    "start": 38.86,
+                    "end": 38.86,
+                    "probability": 0.00036407713196240366
+                },
+                {
+                    "word": " n\u01b0\u1edbc",
+                    "start": 38.86,
+                    "end": 38.86,
+                    "probability": 4.77948306070175e-05
+                },
+                {
+                    "word": " eben",
+                    "start": 38.86,
+                    "end": 38.86,
+                    "probability": 0.00048765912652015686
+                },
+                {
+                    "word": " tot",
+                    "start": 38.86,
+                    "end": 39.58,
+                    "probability": 0.00019384993356652558
+                },
+                {
+                    "word": " aussieht.",
+                    "start": 39.58,
+                    "end": 39.82,
+                    "probability": 0.2990229300339706
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "seek": 3000,
+            "start": 40.74,
+            "end": 42.1,
+            "text": " wante schon einen Spotplatz,",
+            "tokens": [
+                50913,
+                528,
+                68,
+                4981,
+                4891,
+                19102,
+                34755,
+                11,
+                50965
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " wante",
+                    "start": 40.74,
+                    "end": 40.92,
+                    "probability": 0.013651444490136555
+                },
+                {
+                    "word": " schon",
+                    "start": 40.92,
+                    "end": 41.06,
+                    "probability": 0.0018495734548196197
+                },
+                {
+                    "word": " einen",
+                    "start": 41.06,
+                    "end": 41.06,
+                    "probability": 0.012345022521913052
+                },
+                {
+                    "word": " Spotplatz,",
+                    "start": 41.06,
+                    "end": 42.1,
+                    "probability": 0.33287610227125697
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "seek": 3000,
+            "start": 42.42,
+            "end": 43.38,
+            "text": " sondern eine \u043d\u0435\u043e\u0431derte homische Bank",
+            "tokens": [
+                50987,
+                11465,
+                3018,
+                27864,
+                67,
+                10634,
+                3655,
+                7864,
+                8915,
+                51052
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " sondern",
+                    "start": 42.42,
+                    "end": 42.42,
+                    "probability": 0.09312561899423599
+                },
+                {
+                    "word": " eine",
+                    "start": 42.42,
+                    "end": 42.62,
+                    "probability": 0.048405349254608154
+                },
+                {
+                    "word": " \u043d\u0435\u043e\u0431derte",
+                    "start": 42.62,
+                    "end": 42.88,
+                    "probability": 0.010175033712281826
+                },
+                {
+                    "word": " homische",
+                    "start": 42.88,
+                    "end": 43.38,
+                    "probability": 0.06270634781208173
+                },
+                {
+                    "word": " Bank",
+                    "start": 43.38,
+                    "end": 43.38,
+                    "probability": 0.564929723739624
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "seek": 3000,
+            "start": 43.38,
+            "end": 46.98,
+            "text": " Aber wir haben sie sehr Die Rungzen nach mir thinkt,",
+            "tokens": [
+                51126,
+                5992,
+                1987,
+                3084,
+                2804,
+                5499,
+                3229,
+                497,
+                1063,
+                2904,
+                5168,
+                3149,
+                519,
+                83,
+                11,
+                51220
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " Aber",
+                    "start": 43.38,
+                    "end": 45.16,
+                    "probability": 0.001378146931529045
+                },
+                {
+                    "word": " wir",
+                    "start": 45.16,
+                    "end": 45.78,
+                    "probability": 0.13439194858074188
+                },
+                {
+                    "word": " haben",
+                    "start": 45.78,
+                    "end": 45.86,
+                    "probability": 0.8629171848297119
+                },
+                {
+                    "word": " sie",
+                    "start": 45.86,
+                    "end": 46.04,
+                    "probability": 0.5343052744865417
+                },
+                {
+                    "word": " sehr",
+                    "start": 46.04,
+                    "end": 46.22,
+                    "probability": 0.012769428081810474
+                },
+                {
+                    "word": " Die",
+                    "start": 46.22,
+                    "end": 46.44,
+                    "probability": 9.732515309224254e-07
+                },
+                {
+                    "word": " Rungzen",
+                    "start": 46.44,
+                    "end": 46.74,
+                    "probability": 0.01895442023457387
+                },
+                {
+                    "word": " nach",
+                    "start": 46.74,
+                    "end": 46.98,
+                    "probability": 0.0028650823514908552
+                },
+                {
+                    "word": " mir",
+                    "start": 46.98,
+                    "end": 46.98,
+                    "probability": 0.012070694006979465
+                },
+                {
+                    "word": " thinkt,",
+                    "start": 46.98,
+                    "end": 46.98,
+                    "probability": 0.3519528549804818
+                }
+            ]
+        },
+        {
+            "id": 15,
+            "seek": 3000,
+            "start": 47.26,
+            "end": 49.94,
+            "text": " Ama...",
+            "tokens": [
+                51315,
+                14171,
+                485,
+                51365
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " Ama...",
+                    "start": 47.26,
+                    "end": 49.94,
+                    "probability": 0.015174959938178745
+                }
+            ]
+        },
+        {
+            "id": 16,
+            "seek": 3000,
+            "start": 49.94,
+            "end": 53.16,
+            "text": " und gerade stanahm hier egal, dass sie herbalites Farse an ordentlich haben",
+            "tokens": [
+                51385,
+                674,
+                12117,
+                27984,
+                545,
+                76,
+                3296,
+                31528,
+                11,
+                2658,
+                2804,
+                44255,
+                3324,
+                9067,
+                405,
+                364,
+                4792,
+                7698,
+                3084,
+                51571
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " und",
+                    "start": 49.94,
+                    "end": 50.18,
+                    "probability": 0.04960691183805466
+                },
+                {
+                    "word": " gerade",
+                    "start": 50.18,
+                    "end": 50.3,
+                    "probability": 0.06905141472816467
+                },
+                {
+                    "word": " stanahm",
+                    "start": 50.3,
+                    "end": 50.82,
+                    "probability": 0.025554448815455544
+                },
+                {
+                    "word": " hier",
+                    "start": 50.82,
+                    "end": 50.82,
+                    "probability": 0.00012130191316828132
+                },
+                {
+                    "word": " egal,",
+                    "start": 50.82,
+                    "end": 51.2,
+                    "probability": 0.0008041946566663682
+                },
+                {
+                    "word": " dass",
+                    "start": 51.5,
+                    "end": 51.5,
+                    "probability": 0.39341142773628235
+                },
+                {
+                    "word": " sie",
+                    "start": 51.5,
+                    "end": 51.58,
+                    "probability": 0.10646369308233261
+                },
+                {
+                    "word": " herbalites",
+                    "start": 51.58,
+                    "end": 52.04,
+                    "probability": 0.0003687894548534132
+                },
+                {
+                    "word": " Farse",
+                    "start": 52.04,
+                    "end": 52.24,
+                    "probability": 0.015312143746996298
+                },
+                {
+                    "word": " an",
+                    "start": 52.24,
+                    "end": 52.4,
+                    "probability": 0.02548663131892681
+                },
+                {
+                    "word": " ordentlich",
+                    "start": 52.4,
+                    "end": 52.8,
+                    "probability": 0.18010334422251617
+                },
+                {
+                    "word": " haben",
+                    "start": 52.8,
+                    "end": 53.16,
+                    "probability": 0.02437160722911358
+                }
+            ]
+        },
+        {
+            "id": 17,
+            "seek": 3000,
+            "start": 53.16,
+            "end": 56.82,
+            "text": " Remember Naah, als ich gar oft was tun willst.",
+            "tokens": [
+                51574,
+                5459,
+                6056,
+                545,
+                11,
+                3907,
+                1893,
+                3691,
+                11649,
+                390,
+                4267,
+                48355,
+                13,
+                51715
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.606170169890873,
+            "compression_ratio": 1.4135593220338982,
+            "no_speech_prob": 0.006687865126878023,
+            "words": [
+                {
+                    "word": " Remember",
+                    "start": 53.16,
+                    "end": 53.9,
+                    "probability": 6.8489321165543515e-06
+                },
+                {
+                    "word": " Naah,",
+                    "start": 53.9,
+                    "end": 53.9,
+                    "probability": 0.004287243791623041
+                },
+                {
+                    "word": " als",
+                    "start": 53.9,
+                    "end": 54.02,
+                    "probability": 0.010378441773355007
+                },
+                {
+                    "word": " ich",
+                    "start": 54.02,
+                    "end": 54.24,
+                    "probability": 0.20486366748809814
+                },
+                {
+                    "word": " gar",
+                    "start": 54.24,
+                    "end": 54.34,
+                    "probability": 0.005176043603569269
+                },
+                {
+                    "word": " oft",
+                    "start": 54.34,
+                    "end": 54.48,
+                    "probability": 0.00027181472978554666
+                },
+                {
+                    "word": " was",
+                    "start": 54.48,
+                    "end": 55.88,
+                    "probability": 0.013485152274370193
+                },
+                {
+                    "word": " tun",
+                    "start": 55.88,
+                    "end": 56.36,
+                    "probability": 0.018680235370993614
+                },
+                {
+                    "word": " willst.",
+                    "start": 56.36,
+                    "end": 56.82,
+                    "probability": 0.0016266684979200363
+                }
+            ]
+        },
+        {
+            "id": 18,
+            "seek": 5682,
+            "start": 57.2,
+            "end": 59.58,
+            "text": " Ich brauch gerade E\u3063\u305f lang und komm nicht Farrecho.",
+            "tokens": [
+                50382,
+                3141,
+                45522,
+                12117,
+                462,
+                10102,
+                2265,
+                674,
+                6669,
+                1979,
+                9067,
+                265,
+                5738,
+                13,
+                50500
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " Ich",
+                    "start": 57.2,
+                    "end": 57.76,
+                    "probability": 0.13253295421600342
+                },
+                {
+                    "word": " brauch",
+                    "start": 57.76,
+                    "end": 58.04,
+                    "probability": 0.0010972131276503205
+                },
+                {
+                    "word": " gerade",
+                    "start": 58.04,
+                    "end": 58.08,
+                    "probability": 0.004716844297945499
+                },
+                {
+                    "word": " E\u3063\u305f",
+                    "start": 58.08,
+                    "end": 58.26,
+                    "probability": 0.015308438334614038
+                },
+                {
+                    "word": " lang",
+                    "start": 58.26,
+                    "end": 58.46,
+                    "probability": 0.012155395932495594
+                },
+                {
+                    "word": " und",
+                    "start": 58.46,
+                    "end": 58.58,
+                    "probability": 0.01518922857940197
+                },
+                {
+                    "word": " komm",
+                    "start": 58.58,
+                    "end": 58.66,
+                    "probability": 0.08049917221069336
+                },
+                {
+                    "word": " nicht",
+                    "start": 58.66,
+                    "end": 58.9,
+                    "probability": 0.15633909404277802
+                },
+                {
+                    "word": " Farrecho.",
+                    "start": 58.9,
+                    "end": 59.58,
+                    "probability": 0.012339769843189666
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "seek": 5682,
+            "start": 60.06,
+            "end": 62.8,
+            "text": " Und ich\u73a9 schr\u00e4nkert schon ein B Fool ...",
+            "tokens": [
+                50509,
+                2719,
+                1893,
+                19912,
+                956,
+                33766,
+                74,
+                911,
+                4981,
+                1343,
+                363,
+                41583,
+                1097,
+                50628
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " Und",
+                    "start": 60.06,
+                    "end": 60.08,
+                    "probability": 0.06424029171466827
+                },
+                {
+                    "word": " ich\u73a9",
+                    "start": 60.08,
+                    "end": 60.36,
+                    "probability": 0.4137940814543981
+                },
+                {
+                    "word": " schr\u00e4nkert",
+                    "start": 60.36,
+                    "end": 60.9,
+                    "probability": 0.03525861838716082
+                },
+                {
+                    "word": " schon",
+                    "start": 60.9,
+                    "end": 61.04,
+                    "probability": 0.06023961305618286
+                },
+                {
+                    "word": " ein",
+                    "start": 61.04,
+                    "end": 61.26,
+                    "probability": 0.11649709194898605
+                },
+                {
+                    "word": " B",
+                    "start": 61.26,
+                    "end": 61.26,
+                    "probability": 0.0007066028192639351
+                },
+                {
+                    "word": " Fool",
+                    "start": 61.26,
+                    "end": 61.32,
+                    "probability": 4.1589241845940705e-06
+                },
+                {
+                    "word": " ...",
+                    "start": 61.32,
+                    "end": 62.8,
+                    "probability": 0.008275747299194336
+                }
+            ]
+        },
+        {
+            "id": 20,
+            "seek": 5682,
+            "start": 62.8,
+            "end": 64.64,
+            "text": " Aber hier ...",
+            "tokens": [
+                50663,
+                5992,
+                3296,
+                1097,
+                50733
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " Aber",
+                    "start": 62.8,
+                    "end": 63.64,
+                    "probability": 0.16624240577220917
+                },
+                {
+                    "word": " hier",
+                    "start": 63.64,
+                    "end": 64.1,
+                    "probability": 0.02115042507648468
+                },
+                {
+                    "word": " ...",
+                    "start": 64.1,
+                    "end": 64.64,
+                    "probability": 0.23501253128051758
+                }
+            ]
+        },
+        {
+            "id": 21,
+            "seek": 5682,
+            "start": 64.64,
+            "end": 66.84,
+            "text": " Das sinkt man gar nicht nach den everybody macht ...",
+            "tokens": [
+                50751,
+                2846,
+                9500,
+                83,
+                587,
+                3691,
+                1979,
+                5168,
+                1441,
+                2201,
+                10857,
+                1097,
+                50887
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " Das",
+                    "start": 64.64,
+                    "end": 64.76,
+                    "probability": 0.015966279432177544
+                },
+                {
+                    "word": " sinkt",
+                    "start": 64.76,
+                    "end": 64.96,
+                    "probability": 0.38502437899660436
+                },
+                {
+                    "word": " man",
+                    "start": 64.96,
+                    "end": 65.02,
+                    "probability": 0.028561247512698174
+                },
+                {
+                    "word": " gar",
+                    "start": 65.02,
+                    "end": 65.02,
+                    "probability": 0.007646696642041206
+                },
+                {
+                    "word": " nicht",
+                    "start": 65.02,
+                    "end": 65.02,
+                    "probability": 0.5698087811470032
+                },
+                {
+                    "word": " nach",
+                    "start": 65.02,
+                    "end": 65.3,
+                    "probability": 0.08043042570352554
+                },
+                {
+                    "word": " den",
+                    "start": 65.3,
+                    "end": 65.66,
+                    "probability": 0.009411447681486607
+                },
+                {
+                    "word": " everybody",
+                    "start": 65.66,
+                    "end": 65.84,
+                    "probability": 5.635039087792393e-06
+                },
+                {
+                    "word": " macht",
+                    "start": 65.84,
+                    "end": 65.84,
+                    "probability": 0.046445682644844055
+                },
+                {
+                    "word": " ...",
+                    "start": 65.84,
+                    "end": 66.84,
+                    "probability": 0.12611225247383118
+                }
+            ]
+        },
+        {
+            "id": 22,
+            "seek": 5682,
+            "start": 66.84,
+            "end": 70.96,
+            "text": " H\u00f6rt das einen, denn da darf man bin heute wieder lang.",
+            "tokens": [
+                50961,
+                389,
+                11454,
+                1482,
+                4891,
+                11,
+                10471,
+                1120,
+                19374,
+                587,
+                5171,
+                9801,
+                6216,
+                2265,
+                13,
+                51082
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " H\u00f6rt",
+                    "start": 66.84,
+                    "end": 66.92,
+                    "probability": 0.0050678683910518885
+                },
+                {
+                    "word": " das",
+                    "start": 66.92,
+                    "end": 68.9,
+                    "probability": 0.08500698208808899
+                },
+                {
+                    "word": " einen,",
+                    "start": 68.9,
+                    "end": 68.9,
+                    "probability": 0.004742407705634832
+                },
+                {
+                    "word": " denn",
+                    "start": 68.9,
+                    "end": 69.12,
+                    "probability": 0.0036959925200790167
+                },
+                {
+                    "word": " da",
+                    "start": 69.12,
+                    "end": 69.52,
+                    "probability": 0.2958206832408905
+                },
+                {
+                    "word": " darf",
+                    "start": 69.52,
+                    "end": 69.56,
+                    "probability": 0.0036718014162033796
+                },
+                {
+                    "word": " man",
+                    "start": 69.56,
+                    "end": 69.56,
+                    "probability": 0.3505084216594696
+                },
+                {
+                    "word": " bin",
+                    "start": 69.56,
+                    "end": 69.8,
+                    "probability": 0.0003906494239345193
+                },
+                {
+                    "word": " heute",
+                    "start": 69.8,
+                    "end": 70.08,
+                    "probability": 0.0008283902425318956
+                },
+                {
+                    "word": " wieder",
+                    "start": 70.08,
+                    "end": 70.54,
+                    "probability": 0.02982039377093315
+                },
+                {
+                    "word": " lang.",
+                    "start": 70.54,
+                    "end": 70.96,
+                    "probability": 0.016368459910154343
+                }
+            ]
+        },
+        {
+            "id": 23,
+            "seek": 5682,
+            "start": 71.64,
+            "end": 74.5,
+            "text": " Hat Melissa ein Wind und Someone \u00fcber cystig touch oder ein D\u00e4uto.",
+            "tokens": [
+                51162,
+                15867,
+                22844,
+                1343,
+                6320,
+                674,
+                8734,
+                4502,
+                48915,
+                328,
+                2557,
+                4513,
+                1343,
+                413,
+                737,
+                8262,
+                13,
+                51265
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -4.559670797208461,
+            "compression_ratio": 1.3035714285714286,
+            "no_speech_prob": 0.1644972860813141,
+            "words": [
+                {
+                    "word": " Hat",
+                    "start": 71.64,
+                    "end": 72.62,
+                    "probability": 0.0005137272528372705
+                },
+                {
+                    "word": " Melissa",
+                    "start": 72.62,
+                    "end": 72.62,
+                    "probability": 1.3652935422214796e-06
+                },
+                {
+                    "word": " ein",
+                    "start": 72.62,
+                    "end": 72.62,
+                    "probability": 0.016229210421442986
+                },
+                {
+                    "word": " Wind",
+                    "start": 72.62,
+                    "end": 72.92,
+                    "probability": 0.0003436427505221218
+                },
+                {
+                    "word": " und",
+                    "start": 72.92,
+                    "end": 73.62,
+                    "probability": 0.05659540370106697
+                },
+                {
+                    "word": " Someone",
+                    "start": 73.62,
+                    "end": 73.62,
+                    "probability": 0.0001604338176548481
+                },
+                {
+                    "word": " \u00fcber",
+                    "start": 73.62,
+                    "end": 73.62,
+                    "probability": 0.005110601428896189
+                },
+                {
+                    "word": " cystig",
+                    "start": 73.62,
+                    "end": 73.88,
+                    "probability": 0.05470595906137987
+                },
+                {
+                    "word": " touch",
+                    "start": 73.88,
+                    "end": 74.5,
+                    "probability": 3.1814968679100275e-05
+                },
+                {
+                    "word": " oder",
+                    "start": 74.5,
+                    "end": 74.5,
+                    "probability": 0.0008212418179027736
+                },
+                {
+                    "word": " ein",
+                    "start": 74.5,
+                    "end": 74.5,
+                    "probability": 0.013655168935656548
+                },
+                {
+                    "word": " D\u00e4uto.",
+                    "start": 74.5,
+                    "end": 74.5,
+                    "probability": 0.024239643942564726
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}

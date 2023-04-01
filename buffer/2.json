@@ -1,0 +1,609 @@
+{
+    "text": " Mal bi\u3057\u307eieren so vamos fest. Sie sierespect von figuredlich wir \u0432\u044b\u0445\u043e\u0434 mit den Silkaristen die \ub290\ub08c\uc774 in mal haben alle podem finden. Das ist mir jetzt alles entwickelt, mir hinsichtlich was auch so, die man daran ver competent wsp lumin boom, dass ich durchgekommen bin, Creativaires Verb manufacturing immerz billion, also dass mir eine abern Stream einsuczieren.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 2.28,
+            "text": " Mal bi\u3057\u307eieren so vamos fest.",
+            "tokens": [
+                50364,
+                5746,
+                3228,
+                45349,
+                5695,
+                370,
+                5295,
+                6633,
+                13,
+                50470
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " Mal",
+                    "start": 0.0,
+                    "end": 0.48,
+                    "probability": 0.000600765342824161
+                },
+                {
+                    "word": " bi\u3057\u307eieren",
+                    "start": 0.48,
+                    "end": 1.22,
+                    "probability": 0.0071469463067235965
+                },
+                {
+                    "word": " so",
+                    "start": 1.22,
+                    "end": 1.48,
+                    "probability": 0.0050738039426505566
+                },
+                {
+                    "word": " vamos",
+                    "start": 1.48,
+                    "end": 1.82,
+                    "probability": 1.96168966795085e-05
+                },
+                {
+                    "word": " fest.",
+                    "start": 1.82,
+                    "end": 2.28,
+                    "probability": 0.000146658654557541
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "seek": 0,
+            "start": 3.1,
+            "end": 8.26,
+            "text": " Sie sierespect von figuredlich wir \u0432\u044b\u0445\u043e\u0434 mit den Silkaristen die",
+            "tokens": [
+                50475,
+                3559,
+                2804,
+                19575,
+                2957,
+                8932,
+                1739,
+                1987,
+                27142,
+                2194,
+                1441,
+                6943,
+                12303,
+                4821,
+                978,
+                50580
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " Sie",
+                    "start": 3.1,
+                    "end": 5.08,
+                    "probability": 0.011763003654778004
+                },
+                {
+                    "word": " sierespect",
+                    "start": 5.08,
+                    "end": 5.46,
+                    "probability": 0.00017696917075227248
+                },
+                {
+                    "word": " von",
+                    "start": 5.46,
+                    "end": 5.74,
+                    "probability": 0.0017736650770530105
+                },
+                {
+                    "word": " figuredlich",
+                    "start": 5.74,
+                    "end": 6.18,
+                    "probability": 0.01761653397261398
+                },
+                {
+                    "word": " wir",
+                    "start": 6.18,
+                    "end": 7.12,
+                    "probability": 0.002060655737295747
+                },
+                {
+                    "word": " \u0432\u044b\u0445\u043e\u0434",
+                    "start": 7.12,
+                    "end": 8.26,
+                    "probability": 6.814956577727571e-06
+                },
+                {
+                    "word": " mit",
+                    "start": 8.26,
+                    "end": 8.26,
+                    "probability": 0.013281060382723808
+                },
+                {
+                    "word": " den",
+                    "start": 8.26,
+                    "end": 8.26,
+                    "probability": 0.059432171285152435
+                },
+                {
+                    "word": " Silkaristen",
+                    "start": 8.26,
+                    "end": 8.26,
+                    "probability": 0.006459117816120852
+                },
+                {
+                    "word": " die",
+                    "start": 8.26,
+                    "end": 8.26,
+                    "probability": 0.004834102466702461
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "seek": 0,
+            "start": 8.26,
+            "end": 8.9,
+            "text": " \ub290\ub08c\uc774 in mal haben alle podem finden.",
+            "tokens": [
+                50580,
+                29459,
+                294,
+                2806,
+                3084,
+                5430,
+                20934,
+                20734,
+                13,
+                50644
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " \ub290\ub08c\uc774",
+                    "start": 8.26,
+                    "end": 8.26,
+                    "probability": 4.667925168178044e-06
+                },
+                {
+                    "word": " in",
+                    "start": 8.26,
+                    "end": 8.36,
+                    "probability": 0.005323208402842283
+                },
+                {
+                    "word": " mal",
+                    "start": 8.36,
+                    "end": 8.7,
+                    "probability": 0.00010242801363347098
+                },
+                {
+                    "word": " haben",
+                    "start": 8.7,
+                    "end": 8.9,
+                    "probability": 0.0035110509488731623
+                },
+                {
+                    "word": " alle",
+                    "start": 8.9,
+                    "end": 8.9,
+                    "probability": 0.0006436756812036037
+                },
+                {
+                    "word": " podem",
+                    "start": 8.9,
+                    "end": 8.9,
+                    "probability": 0.00010538064816500992
+                },
+                {
+                    "word": " finden.",
+                    "start": 8.9,
+                    "end": 8.9,
+                    "probability": 0.004576020874083042
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "seek": 0,
+            "start": 9.7,
+            "end": 13.36,
+            "text": " Das ist mir jetzt alles entwickelt,",
+            "tokens": [
+                50644,
+                2846,
+                1418,
+                3149,
+                4354,
+                7874,
+                43208,
+                11,
+                50742
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " Das",
+                    "start": 9.7,
+                    "end": 12.32,
+                    "probability": 0.06552137434482574
+                },
+                {
+                    "word": " ist",
+                    "start": 12.32,
+                    "end": 12.32,
+                    "probability": 0.35317298769950867
+                },
+                {
+                    "word": " mir",
+                    "start": 12.32,
+                    "end": 12.48,
+                    "probability": 0.01567447930574417
+                },
+                {
+                    "word": " jetzt",
+                    "start": 12.48,
+                    "end": 12.48,
+                    "probability": 0.007644910365343094
+                },
+                {
+                    "word": " alles",
+                    "start": 12.48,
+                    "end": 13.36,
+                    "probability": 0.012692656368017197
+                },
+                {
+                    "word": " entwickelt,",
+                    "start": 13.36,
+                    "end": 13.36,
+                    "probability": 0.00035007423139177263
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "seek": 0,
+            "start": 13.36,
+            "end": 13.98,
+            "text": " mir hinsichtlich was auch so,",
+            "tokens": [
+                50750,
+                3149,
+                276,
+                1292,
+                41971,
+                390,
+                2168,
+                370,
+                11,
+                50911
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " mir",
+                    "start": 13.36,
+                    "end": 13.36,
+                    "probability": 0.001334250788204372
+                },
+                {
+                    "word": " hinsichtlich",
+                    "start": 13.36,
+                    "end": 13.74,
+                    "probability": 0.25853444562138367
+                },
+                {
+                    "word": " was",
+                    "start": 13.74,
+                    "end": 13.74,
+                    "probability": 0.009191078133881092
+                },
+                {
+                    "word": " auch",
+                    "start": 13.74,
+                    "end": 13.98,
+                    "probability": 0.021539144217967987
+                },
+                {
+                    "word": " so,",
+                    "start": 13.98,
+                    "end": 13.98,
+                    "probability": 0.03534505516290665
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "seek": 0,
+            "start": 13.98,
+            "end": 19.56,
+            "text": " die man daran ver competent wsp lumin boom,",
+            "tokens": [
+                50987,
+                978,
+                587,
+                24520,
+                1306,
+                29998,
+                17757,
+                32476,
+                9351,
+                11,
+                51094
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " die",
+                    "start": 13.98,
+                    "end": 14.06,
+                    "probability": 0.046066779643297195
+                },
+                {
+                    "word": " man",
+                    "start": 14.06,
+                    "end": 14.06,
+                    "probability": 0.09963954985141754
+                },
+                {
+                    "word": " daran",
+                    "start": 14.06,
+                    "end": 14.06,
+                    "probability": 0.0052759237587451935
+                },
+                {
+                    "word": " ver",
+                    "start": 14.06,
+                    "end": 18.02,
+                    "probability": 0.025116490200161934
+                },
+                {
+                    "word": " competent",
+                    "start": 18.02,
+                    "end": 19.56,
+                    "probability": 2.666420641617151e-06
+                },
+                {
+                    "word": " wsp",
+                    "start": 19.56,
+                    "end": 19.56,
+                    "probability": 2.2443157376983436e-06
+                },
+                {
+                    "word": " lumin",
+                    "start": 19.56,
+                    "end": 19.56,
+                    "probability": 0.00033804215490818024
+                },
+                {
+                    "word": " boom,",
+                    "start": 19.56,
+                    "end": 19.56,
+                    "probability": 1.2244217032275628e-05
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "seek": 0,
+            "start": 19.94,
+            "end": 20.38,
+            "text": " dass ich durchgekommen bin,",
+            "tokens": [
+                51094,
+                2658,
+                1893,
+                7131,
+                432,
+                13675,
+                5171,
+                11,
+                51208
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " dass",
+                    "start": 19.94,
+                    "end": 20.38,
+                    "probability": 0.05981599912047386
+                },
+                {
+                    "word": " ich",
+                    "start": 20.38,
+                    "end": 20.38,
+                    "probability": 0.06936421990394592
+                },
+                {
+                    "word": " durchgekommen",
+                    "start": 20.38,
+                    "end": 20.38,
+                    "probability": 0.03983457782305777
+                },
+                {
+                    "word": " bin,",
+                    "start": 20.38,
+                    "end": 20.38,
+                    "probability": 0.5060617327690125
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "seek": 0,
+            "start": 20.38,
+            "end": 23.3,
+            "text": " Creativaires Verb manufacturing immerz billion,",
+            "tokens": [
+                51208,
+                11972,
+                592,
+                10840,
+                27034,
+                11096,
+                5578,
+                89,
+                5218,
+                11,
+                51361
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " Creativaires",
+                    "start": 20.38,
+                    "end": 23.3,
+                    "probability": 0.035074890696250804
+                },
+                {
+                    "word": " Verb",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 7.295154318853747e-06
+                },
+                {
+                    "word": " manufacturing",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 1.5520159649895504e-05
+                },
+                {
+                    "word": " immerz",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 0.0008116983735817485
+                },
+                {
+                    "word": " billion,",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 4.3972922867396846e-05
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "seek": 0,
+            "start": 23.3,
+            "end": 26.08,
+            "text": " also dass mir eine abern Stream einsuczieren.",
+            "tokens": [
+                51361,
+                611,
+                2658,
+                3149,
+                3018,
+                4340,
+                77,
+                24904,
+                21889,
+                1311,
+                89,
+                5695,
+                13,
+                51455
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": [
+                {
+                    "word": " also",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 0.00814828835427761
+                },
+                {
+                    "word": " dass",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 0.020263079553842545
+                },
+                {
+                    "word": " mir",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 0.007493751589208841
+                },
+                {
+                    "word": " eine",
+                    "start": 23.3,
+                    "end": 23.3,
+                    "probability": 0.007891557179391384
+                },
+                {
+                    "word": " abern",
+                    "start": 23.3,
+                    "end": 24.92,
+                    "probability": 0.06865327486593742
+                },
+                {
+                    "word": " Stream",
+                    "start": 24.92,
+                    "end": 25.5,
+                    "probability": 0.00018871798238251358
+                },
+                {
+                    "word": " einsuczieren.",
+                    "start": 25.5,
+                    "end": 26.08,
+                    "probability": 0.08955395442836789
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "seek": 0,
+            "start": 26.16,
+            "end": 26.16,
+            "text": "",
+            "tokens": [],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": []
+        },
+        {
+            "id": 10,
+            "seek": 0,
+            "start": 26.16,
+            "end": 26.16,
+            "text": "",
+            "tokens": [],
+            "temperature": 1.0,
+            "avg_logprob": -5.571477384648771,
+            "compression_ratio": 1.3986928104575163,
+            "no_speech_prob": 0.004346026107668877,
+            "words": []
+        }
+    ],
+    "language": "de"
+}

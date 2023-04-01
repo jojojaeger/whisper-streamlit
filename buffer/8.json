@@ -1,0 +1,52 @@
+{
+    "text": " Ihruyor in ihren Fahr",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.12,
+            "end": 0.68,
+            "text": " Ihruyor in ihren Fahr",
+            "tokens": [
+                50364,
+                14773,
+                13649,
+                294,
+                22347,
+                19843,
+                51299
+            ],
+            "temperature": 1.0,
+            "avg_logprob": -5.230213165283203,
+            "compression_ratio": 0.7241379310344828,
+            "no_speech_prob": 0.1547371745109558,
+            "words": [
+                {
+                    "word": " Ihruyor",
+                    "start": 0.12,
+                    "end": 0.38,
+                    "probability": 0.09755677274574737
+                },
+                {
+                    "word": " in",
+                    "start": 0.38,
+                    "end": 0.42,
+                    "probability": 0.39121106266975403
+                },
+                {
+                    "word": " ihren",
+                    "start": 0.42,
+                    "end": 0.56,
+                    "probability": 0.0012944700429216027
+                },
+                {
+                    "word": " Fahr",
+                    "start": 0.56,
+                    "end": 0.68,
+                    "probability": 0.0005679068272002041
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}
