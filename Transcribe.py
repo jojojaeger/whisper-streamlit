@@ -28,10 +28,10 @@ with st.sidebar.form("input_form"):
     whisper_model = st.selectbox("Whisper model", options=[
         "tiny", "base", "small", "medium", "large"], index=4)
 
-    speaker_diarization = st.checkbox(
-        "Sprechererkennung", value=False)
-
     pauses = st.checkbox("Pausen transkribieren", value=False)
+
+    speaker_diarization = st.checkbox(
+        "Sprechererkennung (experimental)", value=False, help='Die Sprechererkennung funktioniert nur bei klar getrennten Sprecherabschnitten und ist nicht verlässlich.')
 
     transcribe = st.form_submit_button(label="Start")
 
@@ -48,17 +48,24 @@ if transcribe:
 # if there is a transcription, render it. If not, display instructions
 if "transcription" in st.session_state:
 
-    for output in st.session_state.transcription.output:
+    for i, output in enumerate(st.session_state.transcription.output):
         doc = docx.Document()
         save_dir = str(pathlib.Path(__file__).parent.absolute()
                        ) + "/transcripts/"
         st.markdown(
-            f"#### Transcription of {output['name']}")
+            f"#### Transkription von {output['name']}")
         st.markdown(
             f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}`)")
+        color_coding = st.checkbox(
+            "Farbkodierung", value=True, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde')
         prev_word_end = -1
         text = ""
-        docx = ""
+        html_text = ""
+        color_map = {
+            (0.9, 1): "green",
+            (0.7, 0.9): "orange",
+            (0, 0.7): "red"
+        }
 
         with st.expander("Transkript"):
             if speaker_diarization:
@@ -75,6 +82,7 @@ if "transcription" in st.session_state:
                         speaker = speakers.get(group[0].split()[-1], "")
                         if idx != 0:
                             text += "<br><br>"
+                        html_text += f"{speaker}: "
                         text += f"{speaker}: "
                         for c in captions:
                             for w in c['words']:
@@ -82,8 +90,15 @@ if "transcription" in st.session_state:
                                     if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
                                         pause = w['start'] - prev_word_end
                                         pause_int = int(pause)
+                                        html_text += f'{"."*pause_int}{{{pause_int}sek}}'
                                         text += f'{"."*pause_int}{{{pause_int}sek}}'
                                     prev_word_end = w['end']
+                                    if (color_coding):
+                                        color = next((color for (min_prob, max_prob), color in color_map.items(
+                                        ) if min_prob <= w['probability'] <= max_prob), None)
+                                    else:
+                                        color = 'black'
+                                    html_text += f"<span style='color:{color}'>{w['word']}</span>"
                                     text += w['word']
             else:
                 for idx, segment in enumerate(output['segments']):
@@ -92,18 +107,22 @@ if "transcription" in st.session_state:
                         if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
                             pause = w['start'] - prev_word_end
                             pause_int = int(pause)
+                            html_text += f'{"."*pause_int}{{{pause_int}sek}}'
                             text += f'{"."*pause_int}{{{pause_int}sek}}'
                         prev_word_end = w['end']
+                        if (color_coding):
+                            color = next((color for (min_prob, max_prob), color in color_map.items(
+                            ) if min_prob <= w['probability'] <= max_prob), None)
+                        else:
+                            color = 'black'
+                        html_text += f"<span style='color:{color}'>{w['word']}</span>"
                         text += w['word']
                         # insert line break if there is a punctuation mark
                         if any(c in w['word'] for c in "!?.") and not any(c.isdigit() for c in w['word']):
-                            text += "<br><br>"
-            st.markdown(text, unsafe_allow_html=True)
+                            html_text += "<br><br>"
+                            text += '\n\n'
+            st.markdown(html_text, unsafe_allow_html=True)
             doc.add_paragraph(text)
-            # replace <br> with line breaks
-            for para in doc.paragraphs:
-                if '<br>' in para.text:
-                    para.text = para.text.replace('<br>', '\n')
 
         # save transcript as docx. in local folder
         file_name = output['name'] + "-" + whisper_model + \
@@ -119,7 +138,7 @@ if "transcription" in st.session_state:
             mime="docx"
         )
 
-        # delete buffer files
+        # # delete buffer files
         folder_contents = os.listdir('buffer')
 
         for item in folder_contents:

@@ -106,11 +106,14 @@ class Transcription:
                 speaker_groups = Transcription.pyannote(self.audios[idx])
                 for i in range(len(speaker_groups)):
                     audio = 'buffer/' + str(i) + '.wav'
-                    try:
-                        result = transcriber.transcribe(
-                            audio=audio, language=language, verbose=True, word_timestamps=True)
-                    except Exception as ex:
-                        print(ex)
+                    length = librosa.get_duration(filename=audio)
+                    if (length > 0.5):
+                        try:
+                            result = transcriber.transcribe(
+                                audio=audio, language=language, verbose=True, word_timestamps=True)
+                        except Exception as ex:
+                            print(ex)
+
                     with open('buffer/' + str(i)+'.json', "w") as outfile:
                         json.dump(result, outfile, indent=4)
 
