@@ -54,10 +54,10 @@ if "transcription" in st.session_state:
                        ) + "/transcripts/"
         st.markdown(
             f"#### Transkription von {output['name']}")
-        st.markdown(git
-                    f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}`)")
+        st.markdown(
+            f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}`)")
         color_coding = st.checkbox(
-            "Farbkodierung", value=True, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde')
+            "Farbkodierung", value=True, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde. Color codes: 1.0 - 0.9 green; 0.9 - 0.7 orange; 0.7 - 0.0 red')
         prev_word_end = -1
         text = ""
         html_text = ""
