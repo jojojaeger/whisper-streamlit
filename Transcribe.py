@@ -5,8 +5,6 @@ from datetime import datetime
 import pathlib
 import io
 import json
-import os
-import time
 
 # app wide config
 st.set_page_config(
@@ -81,7 +79,8 @@ if "transcription" in st.session_state:
                             speakers['SPEAKER_00'], speakers['SPEAKER_01'] = speakers['SPEAKER_01'], speakers['SPEAKER_00']
                         speaker = speakers.get(group[0].split()[-1], "")
                         if idx != 0:
-                            text += "<br><br>"
+                            html_text += "<br><br>"
+                            text += '\n\n'
                         html_text += f"{speaker}: "
                         text += f"{speaker}: "
                         for c in captions:
@@ -138,17 +137,6 @@ if "transcription" in st.session_state:
             mime="docx"
         )
 
-        # # delete buffer files
-        folder_contents = os.listdir('buffer')
-
-        for item in folder_contents:
-            item_path = os.path.join('buffer', item)
-            try:
-                with open(item_path, 'r') as file:
-                    pass
-                os.remove(item_path)
-            except:
-                pass
 else:
     # show instruction page
     st.markdown("<h1>WHISPER - AUTOMATISCHE TRANSKRIPTION </h1> <p> Dieses Projekt wurde im Rahmen der Masterarbeit von <a href='mailto:johanna.jaeger89@icloud.com'> Johanna Jäger<a/> " +

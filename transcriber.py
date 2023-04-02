@@ -7,6 +7,7 @@ import librosa
 import soundfile as sf
 from pydub import AudioSegment
 import json
+import os
 
 
 class Transcription:
@@ -19,6 +20,18 @@ class Transcription:
             with NamedTemporaryFile(suffix=".wav", delete=False) as tmp_file:
                 tmp_file.write(file.getvalue())
                 self.audios.append(tmp_file.name)
+
+        # delete buffer files
+        folder_contents = os.listdir('buffer')
+
+        for item in folder_contents:
+            item_path = os.path.join('buffer', item)
+            try:
+                with open(item_path, 'r') as file:
+                    pass
+                os.remove(item_path)
+            except:
+                pass
 
     @staticmethod
     def millisec(timeStr) -> int:
