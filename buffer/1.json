@@ -1,0 +1,47 @@
+{
+    "text": " Ganz allein gewohnt.",
+    "segments": [
+        {
+            "id": 0,
+            "seek": 0,
+            "start": 0.0,
+            "end": 0.96,
+            "text": " Ganz allein gewohnt.",
+            "tokens": [
+                50364,
+                32496,
+                37673,
+                6906,
+                1445,
+                580,
+                13,
+                50414
+            ],
+            "temperature": 0.0,
+            "avg_logprob": -0.4841620657179091,
+            "compression_ratio": 0.7142857142857143,
+            "no_speech_prob": 0.053212977945804596,
+            "words": [
+                {
+                    "word": " Ganz",
+                    "start": 0.0,
+                    "end": 0.3,
+                    "probability": 0.42004674673080444
+                },
+                {
+                    "word": " allein",
+                    "start": 0.3,
+                    "end": 0.5,
+                    "probability": 0.9396345615386963
+                },
+                {
+                    "word": " gewohnt.",
+                    "start": 0.5,
+                    "end": 0.96,
+                    "probability": 0.8145095705986023
+                }
+            ]
+        }
+    ],
+    "language": "de"
+}
