@@ -3,10 +3,10 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 
 ## Features
 
-- Pause detection: The tool can detect pauses in the audio.
-- Color coding: The tool can color the words according to its probability.
-- Speaker detection: The tool can also detect different speakers in the audio and label them accordingly. (still experimental)
 - Streamlit UI: The tool includes a user-friendly interface that allows you to upload multiple audio files and get a nicely formated transcript.
+- Pause detection: The tool can detect pauses in the audio.
+- Confidence scores: The tool can color the words according to its probability.
+- Speaker detection: The tool can also detect different speakers in the audio and label them accordingly. (still experimental)
 
 ## Data Privacy
 
