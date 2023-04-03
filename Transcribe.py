@@ -94,7 +94,7 @@ if "transcription" in st.session_state:
                                     prev_word_end = w['end']
                                     if (color_coding):
                                         color = next((color for (min_prob, max_prob), color in color_map.items(
-                                        ) if min_prob <= w['probability'] <= max_prob), None)
+                                        ) if min_prob <= w['probability'] < max_prob), None)
                                     else:
                                         color = 'black'
                                     html_text += f"<span style='color:{color}'>{w['word']}</span>"
@@ -111,7 +111,7 @@ if "transcription" in st.session_state:
                         prev_word_end = w['end']
                         if (color_coding):
                             color = next((color for (min_prob, max_prob), color in color_map.items(
-                            ) if min_prob <= w['probability'] <= max_prob), None)
+                            ) if min_prob <= w['probability'] < max_prob), None)
                         else:
                             color = 'black'
                         html_text += f"<span style='color:{color}'>{w['word']}</span>"
