@@ -5,6 +5,9 @@ from datetime import datetime
 import pathlib
 import io
 import json
+from matplotlib import pyplot as plt
+import matplotlib.colors as mcolors
+import numpy as np
 
 # app wide config
 st.set_page_config(
@@ -55,15 +58,13 @@ if "transcription" in st.session_state:
         st.markdown(
             f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}`)")
         color_coding = st.checkbox(
-            "Farbkodierung", value=False, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde. Color codes: 1.0 - 0.9 green; 0.9 - 0.7 orange; 0.7 - 0.0 red')
+            "Farbkodierung", value=False, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde. Die Farbskala reicht von grün (hoch) bis rot (niedrig).')
         prev_word_end = -1
         text = ""
         html_text = ""
-        color_map = {
-            (0.9, 1): "green",
-            (0.7, 0.9): "orange",
-            (0, 0.7): "red"
-        }
+        # Define the color map
+        colors = [(0.6, 0, 0), (1, 0.7, 0), (0, 0.6, 0)]
+        cmap = mcolors.LinearSegmentedColormap.from_list('my_colormap', colors)
 
         with st.expander("Transkript"):
             if speaker_diarization:
@@ -93,11 +94,12 @@ if "transcription" in st.session_state:
                                         text += f'{"."*pause_int}{{{pause_int}sek}}'
                                     prev_word_end = w['end']
                                     if (color_coding):
-                                        color = next((color for (min_prob, max_prob), color in color_map.items(
-                                        ) if min_prob <= w['probability'] < max_prob), None)
+                                        rgba_color = cmap(w['probability'])
+                                        rgb_color = tuple(round(x * 255)
+                                                          for x in rgba_color[:3])
                                     else:
-                                        color = 'black'
-                                    html_text += f"<span style='color:{color}'>{w['word']}</span>"
+                                        rgb_color = [0, 0, 0]
+                                    html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
                                     text += w['word']
             else:
                 for idx, segment in enumerate(output['segments']):
@@ -110,11 +112,13 @@ if "transcription" in st.session_state:
                             text += f'{"."*pause_int}{{{pause_int}sek}}'
                         prev_word_end = w['end']
                         if (color_coding):
-                            color = next((color for (min_prob, max_prob), color in color_map.items(
-                            ) if min_prob <= w['probability'] < max_prob), None)
+                            rgba_color = cmap(w['probability'])
+                            rgb_color = tuple(round(x * 255)
+                                              for x in rgba_color[:3])
+                            print(w['word'], w['probability'], rgb_color)
                         else:
-                            color = 'black'
-                        html_text += f"<span style='color:{color}'>{w['word']}</span>"
+                            rgb_color = [0, 0, 0]
+                        html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
                         text += w['word']
                         # insert line break if there is a punctuation mark
                         if any(c in w['word'] for c in "!?.") and not any(c.isdigit() for c in w['word']):
