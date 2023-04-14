@@ -4,10 +4,7 @@ import docx
 from datetime import datetime
 import pathlib
 import io
-import json
-from matplotlib import pyplot as plt
 import matplotlib.colors as mcolors
-import numpy as np
 
 # app wide config
 st.set_page_config(
@@ -31,15 +28,12 @@ with st.sidebar.form("input_form"):
 
     pauses = st.checkbox("Pausen transkribieren", value=False)
 
-    speaker_diarization = st.checkbox(
-        "Sprechererkennung (experimental)", value=False, help='Die Sprechererkennung funktioniert nur bei klar getrennten Sprecherabschnitten und ist nicht verlässlich.')
-
     transcribe = st.form_submit_button(label="Start")
 
 if transcribe:
     if input_files:
         st.session_state.transcription = Transcription(
-            input_files, speaker_diarization)
+            input_files)
         st.session_state.transcription.transcribe(
             whisper_model
         )
@@ -67,63 +61,29 @@ if "transcription" in st.session_state:
         cmap = mcolors.LinearSegmentedColormap.from_list('my_colormap', colors)
 
         with st.expander("Transkript"):
-            if speaker_diarization:
-                speakers = {'SPEAKER_00': 'A', 'SPEAKER_01': 'B'}
-                for idx, group in enumerate(output['diarization']):
-                    try:
-                        captions = json.load(
-                            open(f"buffer/{idx}.json"))['segments']
-                    except Exception as ex:
-                        print(ex)
-                    if captions:
-                        if idx == 0 and speakers.get(group[0].split()[-1], "") == 'B':
-                            speakers['SPEAKER_00'], speakers['SPEAKER_01'] = speakers['SPEAKER_01'], speakers['SPEAKER_00']
-                        speaker = speakers.get(group[0].split()[-1], "")
-                        if idx != 0:
-                            html_text += "<br><br>"
-                            text += '\n\n'
-                        html_text += f"{speaker}: "
-                        text += f"{speaker}: "
-                        for c in captions:
-                            for w in c['words']:
-                                if w['word']:
-                                    if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
-                                        pause = w['start'] - prev_word_end
-                                        pause_int = int(pause)
-                                        html_text += f'{"."*pause_int}{{{pause_int}sek}}'
-                                        text += f'{"."*pause_int}{{{pause_int}sek}}'
-                                    prev_word_end = w['end']
-                                    if (color_coding):
-                                        rgba_color = cmap(w['probability'])
-                                        rgb_color = tuple(round(x * 255)
-                                                          for x in rgba_color[:3])
-                                    else:
-                                        rgb_color = [0, 0, 0]
-                                    html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
-                                    text += w['word']
-            else:
-                for idx, segment in enumerate(output['segments']):
-                    for w in output['segments'][idx]['words']:
-                        # check for pauses in speech longer than 3s
-                        if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
-                            pause = w['start'] - prev_word_end
-                            pause_int = int(pause)
-                            html_text += f'{"."*pause_int}{{{pause_int}sek}}'
-                            text += f'{"."*pause_int}{{{pause_int}sek}}'
-                        prev_word_end = w['end']
-                        if (color_coding):
-                            rgba_color = cmap(w['probability'])
-                            rgb_color = tuple(round(x * 255)
-                                              for x in rgba_color[:3])
-                            print(w['word'], w['probability'], rgb_color)
-                        else:
-                            rgb_color = [0, 0, 0]
-                        html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
-                        text += w['word']
-                        # insert line break if there is a punctuation mark
-                        if any(c in w['word'] for c in "!?.") and not any(c.isdigit() for c in w['word']):
-                            html_text += "<br><br>"
-                            text += '\n\n'
+            for idx, segment in enumerate(output['segments']):
+                for w in output['segments'][idx]['words']:
+                    # check for pauses in speech longer than 3s
+                    if pauses and prev_word_end != -1 and w['start'] - prev_word_end >= 3:
+                        pause = w['start'] - prev_word_end
+                        pause_int = int(pause)
+                        html_text += f'{"."*pause_int}{{{pause_int}sek}}'
+                        text += f'{"."*pause_int}{{{pause_int}sek}}'
+                    prev_word_end = w['end']
+                    if (color_coding):
+                        rgba_color = cmap(w['probability'])
+                        rgb_color = tuple(round(x * 255)
+                                          for x in rgba_color[:3])
+                        print(w['word'], w['probability'], rgb_color)
+                    else:
+                        rgb_color = (0, 0, 0)
+                        print(w['word'], w['probability'], rgb_color)
+                    html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
+                    text += w['word']
+                    # insert line break if there is a punctuation mark
+                    if any(c in w['word'] for c in "!?.") and not any(c.isdigit() for c in w['word']):
+                        html_text += "<br><br>"
+                        text += '\n\n'
             st.markdown(html_text, unsafe_allow_html=True)
             doc.add_paragraph(text)
 
