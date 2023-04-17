@@ -37,8 +37,7 @@ To use this tool, you will need to install the required dependencies and run the
 ## Fixes to common errors
 
 * Error: Request failed with status code 403
-
-solution run the app with --server.enableWebsocketCompression=false
+  solution run the app with --server.enableWebsocketCompression=false
 
 ## Contact
 
