@@ -34,6 +34,12 @@ To use this tool, you will need to install the required dependencies and run the
 2. Select a model (large for the best result) and set additional parameters 
 3. Download the resulting transcript
 
+## Fixes to common errors
+
+* Error: Request failed with status code 403
+
+solution run the app with --server.enableWebsocketCompression=false
+
 ## Contact
 
 If you have any questions or feedback about this project, please feel free to contact us by email at johanna.jaeger89@icloud.com.
