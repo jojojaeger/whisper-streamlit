@@ -25,8 +25,9 @@ Start Screen            |  Results
 To use this tool, you will need to install the required dependencies and run the Streamlit app. You can do this by following these steps:
 
 1. Clone the repository: git clone https://github.com/jojojaeger/whisper-streamlit
-2. Install dependencies: pip install -r requirements.txt
-3. Run the Streamlit app: streamlit run Transcribe.py (you can also launch it from a desktop shortcut following these instructions: https://discuss.streamlit.io/t/launching-streamlit-webapp-from-desktop-shortcut/26297)
+2. Install prerequisites: Python, Pip, Git, PyTorch (pip install torch torchvision torchaudio)
+3. Install dependencies: pip install -r requirements.txt
+4. Run the Streamlit app: streamlit run Transcribe.py (you can also launch it from a desktop shortcut following these instructions: https://discuss.streamlit.io/t/launching-streamlit-webapp-from-desktop-shortcut/26297)
 
 ## How to Use
 
