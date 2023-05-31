@@ -15,6 +15,7 @@ class Transcription:
     def transcribe(
         self,
         whisper_model: str,
+        translation: bool,
     ):
 
         # get whisper model
@@ -37,10 +38,18 @@ class Transcription:
                 verbose=True,
                 word_timestamps=True
             )
+            if(translation):
+                self.translation = transcriber.transcribe(
+                    self.audios[idx],
+                    language=language,
+                    verbose=True,
+                    word_timestamps=True,
+                    task='translate'
+                )["text"]
+                self.raw_output["translation"] = self.translation
             self.segments = self.raw_output["segments"]
             for segment in self.raw_output["segments"]:
                 del segment["tokens"]
-
             self.raw_output.update(
                 name=self.source[idx].name, language=language)
             self.output.append(self.raw_output)

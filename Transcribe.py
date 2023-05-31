@@ -28,6 +28,8 @@ with st.sidebar.form("input_form"):
 
     pauses = st.checkbox("Pausen transkribieren", value=False)
 
+    translation = st.checkbox("Englische Übersetzung", value=False)
+
     transcribe = st.form_submit_button(label="Start")
 
 if transcribe:
@@ -35,7 +37,7 @@ if transcribe:
         st.session_state.transcription = Transcription(
             input_files)
         st.session_state.transcription.transcribe(
-            whisper_model
+            whisper_model, translation
         )
     else:
         st.error("Bitte wählen Sie eine Datei")
@@ -45,14 +47,18 @@ if "transcription" in st.session_state:
 
     for i, output in enumerate(st.session_state.transcription.output):
         doc = docx.Document()
+        avg_confidence_score = 0
+        amount_words = 0
         save_dir = str(pathlib.Path(__file__).parent.absolute()
                        ) + "/transcripts/"
         st.markdown(
             f"#### Transkription von {output['name']}")
+        for idx, segment in enumerate(output['segments']):
+            for w in output['segments'][idx]['words']:
+                amount_words += 1
+                avg_confidence_score += w['probability']
         st.markdown(
-            f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}`)")
-        color_coding = st.checkbox(
-            "Farbkodierung", value=False, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde. Die Farbskala reicht von grün (hoch) bis rot (niedrig).')
+            f"_(whisper model:_`{whisper_model}` -  _language:_ `{output['language']}` -  _⌀ confidence score:_ `{round(avg_confidence_score / amount_words,3)}`)")
         prev_word_end = -1
         text = ""
         html_text = ""
@@ -61,6 +67,8 @@ if "transcription" in st.session_state:
         cmap = mcolors.LinearSegmentedColormap.from_list('my_colormap', colors)
 
         with st.expander("Transkript"):
+            color_coding = st.checkbox(
+                "Farbkodierung", value=False, key={i}, help='Farbkodierung eines Wortes auf der Grundlage der Wahrscheinlichkeit, dass es richtig erkannt wurde. Die Farbskala reicht von grün (hoch) bis rot (niedrig).')
             for idx, segment in enumerate(output['segments']):
                 for w in output['segments'][idx]['words']:
                     # check for pauses in speech longer than 3s
@@ -74,10 +82,8 @@ if "transcription" in st.session_state:
                         rgba_color = cmap(w['probability'])
                         rgb_color = tuple(round(x * 255)
                                           for x in rgba_color[:3])
-                        print(w['word'], w['probability'], rgb_color)
                     else:
                         rgb_color = (0, 0, 0)
-                        print(w['word'], w['probability'], rgb_color)
                     html_text += f"<span style='color:rgb{rgb_color}'>{w['word']}</span>"
                     text += w['word']
                     # insert line break if there is a punctuation mark
@@ -86,6 +92,10 @@ if "transcription" in st.session_state:
                         text += '\n\n'
             st.markdown(html_text, unsafe_allow_html=True)
             doc.add_paragraph(text)
+
+        if (translation):
+            with st.expander("Englische Übersetzung"):
+                st.markdown(output["translation"], unsafe_allow_html=True)
 
         # save transcript as docx. in local folder
         file_name = output['name'] + "-" + whisper_model + \
