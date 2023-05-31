@@ -34,7 +34,7 @@ To use this tool, you will need to install the required dependencies and run the
 
 1. Upload one or multiple audio files 
 2. Select a model (large for the best result) and set additional parameters 
-3. Download the resulting transcript
+3. Download the resulting transcript (also saved to local transcripts-folder)
 
 ## Fixes to common errors
 
