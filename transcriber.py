@@ -44,3 +44,4 @@ class Transcription:
             self.raw_output.update(
                 name=self.source[idx].name, language=language)
             self.output.append(self.raw_output)
+            print(self.output)
