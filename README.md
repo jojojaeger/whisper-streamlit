@@ -6,6 +6,7 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 - Streamlit UI: The tool includes a user-friendly interface that allows you to upload multiple audio files and get a nicely formated transcript.
 - Pause detection: The tool can detect pauses in the audio.
 - Confidence scores: The tool can color the words according to its probability.
+- Translation to english 
 - Speaker detection: The tool can also detect different speakers in the audio and label them accordingly. (still experimental, available in whisper-streamlit-speaker folder)
 
 ## Data Privacy
@@ -33,7 +34,7 @@ To use this tool, you will need to install the required dependencies and run the
 
 1. Upload one or multiple audio files 
 2. Select a model (large for the best result) and set additional parameters 
-3. Download the resulting transcript
+3. Download the resulting transcript (also saved to local transcripts-folder)
 
 ## Fixes to common errors
 
