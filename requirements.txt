@@ -2,3 +2,6 @@ python-docx==0.8.11
 streamlit==1.22.0
 whisper==1.0
 ffmpeg-python==0.2.0
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch
+torchvision
