@@ -22,6 +22,7 @@ Start Screen            |  Results
 ![](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)  |  ![](https://github.com/user-attachments/assets/bc700882-4502-436c-b7ae-b43eb8b9a849)
 
 
+
 ## Getting Started
 
 To use this tool, you will need to install the required dependencies and run the Streamlit app. You can do this by following these steps:
