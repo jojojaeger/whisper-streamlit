@@ -18,8 +18,16 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 ## User Interface
 
 Start Screen            |  Results
-:-------------------------:|:-------------------------:
-![](https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png)  |  ![](https://github.com/user-attachments/assets/bc700882-4502-436c-b7ae-b43eb8b9a849)
+<table>
+  <tr>
+    <td>
+      <img src="https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png" alt="Start Screen" width="100%">
+    </td>
+    <td>
+      <img src="https://github.com/user-attachments/assets/bc700882-4502-436c-b7ae-b43eb8b9a849" alt="Results" width="100%">
+    </td>
+  </tr>
+</table>
 
 
 
