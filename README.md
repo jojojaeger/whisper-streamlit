@@ -17,15 +17,12 @@ This project is a tool that was developed as part of a Master's thesis in cooper
 
 ## User Interface
 
-Start Screen            |  Results
-<div style="display: flex; justify-content: space-between;">
-  <div style="flex: 1; padding: 10px;">
-    <img src="https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png" alt="Start Screen" style="width: 100%;">
-  </div>
-  <div style="flex: 1; padding: 10px;">
-    <img src="https://github.com/user-attachments/assets/bc700882-4502-436c-b7ae-b43eb8b9a849" alt="Results" style="width: 100%;">
-  </div>
-</div>
+Start Screen   
+<img src="https://user-images.githubusercontent.com/65357373/226929650-97a978c7-5ea9-41dd-8c25-660d4d2eea43.png" alt="Start Screen" style="width: 100%;">
+
+Results
+<img src="https://github.com/user-attachments/assets/bc700882-4502-436c-b7ae-b43eb8b9a849" alt="Results" style="width: 100%;">
+
 
 
 
